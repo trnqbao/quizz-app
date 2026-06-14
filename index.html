@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <!-- Screen 1: Start Screen -->
+  <template id="start-screen">
+    <div class="screen start-screen">
+      <div class="container">
+        <h1 class="title">Quiz App</h1>
+        <div class="start-content">
+          <p class="question-count">Tổng số câu hỏi: <span id="total-questions">0</span></p>
+          <button id="start-btn" class="btn btn-primary">Bắt đầu</button>
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <!-- Screen 2: Question Screen -->
+  <template id="question-screen">
+    <div class="screen question-screen">
+      <div class="container">
+        <div class="progress-bar">
+          <span id="progress-text">1 / 10</span>
+          <button id="shuffle-btn" class="btn btn-shuffle">Trộn câu hỏi 🔀</button>
+          <button id="back-btn" class="btn btn-back">← Quay lại</button>
+        </div>
+        <div class="question-card">
+          <h2 id="question-text" class="question-text"></h2>
+          <div id="answers-container" class="answers-grid"></div>
+          <button id="next-btn" class="btn btn-primary btn-next" style="display: none;">Next →</button>
+        </div>
+      </div>
+      
+      <!-- Bảo Pet Character -->
+      <div class="bao-container">
+        <div id="bao-thinking" class="bao-thinking">
+          <div class="bao-bubble">
+            <p id="bao-message"></p>
+            <div class="bao-tail"></div>
+          </div>
+        </div>
+        <div class="bao-body">
+          <span class="bao-emoji">😊</span>
+        </div>
+        <div class="bao-name">Bảo</div>
+      </div>
+    </div>
+  </template>
+
+  <!-- Screen 3: Result Screen -->
+  <template id="result-screen">
+    <div class="screen result-screen">
+      <div class="container">
+        <div class="result-content">
+          <h1 class="title">Bạn đã hoàn thành!</h1>
+          <div class="result-stats">
+            <p>Tổng số câu hỏi: <span id="total-questions-result">0</span></p>
+            <p>Số lần sai: <span id="wrong-count-result">0</span></p>
+          </div>
+          <button id="restart-btn" class="btn btn-primary">Làm lại</button>
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <script src="main.js"></script>
+</body>
+</html>
