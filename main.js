@@ -8,57 +8,6 @@ function shuffle(array) {
   return arr;
 }
 
-// Praise messages for correct answers
-const CORRECT_MESSAGES = [
-  "Khánh Huyền trả lời đúng rồi! Em bấm Next để chuyển câu 🎉",
-  "Chính xác luôn! Khánh Huyền giỏi thật sự đó 🌟",
-  "Không làm Bảo thất vọng! Khánh Huyền quá xuất sắc 😊",
-  "Đúng rồi đó Khánh Huyền! Tiếp tục phát huy nha 💪",
-  "Khánh Huyền đỉnh thật! Câu tiếp theo thôi nào 🚀",
-  "Bảo biết ngay Khánh Huyền sẽ đúng mà! 🥰",
-  "Một điểm cho Khánh Huyền! Bấm Next đi nào ✨",
-];
-
-function getRandomPraise() {
-  return CORRECT_MESSAGES[Math.floor(Math.random() * CORRECT_MESSAGES.length)];
-}
-
-// Bảo Pet State Management
-function setBaoState(state, message = '') {
-  const thinkingBox = document.getElementById('bao-thinking');
-  const messageEl = document.getElementById('bao-message');
-  const emojiEl = document.querySelector('.bao-emoji');
-  
-  if (!thinkingBox || !messageEl || !emojiEl) return;
-  
-  switch (state) {
-    case 'idle':
-      thinkingBox.classList.remove('show');
-      emojiEl.textContent = '😊';
-      break;
-    case 'wrong':
-      messageEl.textContent = 'Em chọn sai đáp án rồi 🥺';
-      thinkingBox.classList.add('show');
-      emojiEl.textContent = '😢';
-      break;
-    case 'correct':
-      messageEl.textContent = getRandomPraise();
-      thinkingBox.classList.add('show');
-      emojiEl.textContent = '😄';
-      break;
-    case 'reshuffling':
-      messageEl.textContent = 'Để anh trộn lại đáp án nhé 🔀';
-      thinkingBox.classList.add('show');
-      emojiEl.textContent = '🤔';
-      break;
-    case 'question_shuffled':
-      messageEl.textContent = 'Bảo đã trộn xong câu hỏi rồi! Bắt đầu lại nha 🔀';
-      thinkingBox.classList.add('show');
-      emojiEl.textContent = '🎲';
-      break;
-  }
-}
-
 // Quiz State
 class QuizState {
   constructor() {
@@ -66,7 +15,7 @@ class QuizState {
     this.originalQuestions = []; // backup of original order
     this.currentIndex = 0;
     this.wrongCount = 0;
-    this.state = 'idle'; // idle | wrong | correct | reshuffling
+    this.state = 'idle'; // idle | wrong | correct
     this.resetClickListener = null; // store reference to reset listener for cleanup
     this.isShuffled = false; // track if questions are currently shuffled
   }
@@ -202,7 +151,6 @@ class QuizApp {
     
     // Reset state to idle
     this.state.state = 'idle';
-    setBaoState('idle');
   }
 
   handleAnswer(selectedOption, buttonElement, question, screenClone) {
@@ -211,11 +159,10 @@ class QuizApp {
     const buttons = document.querySelectorAll('.answer-btn');
 
     if (selectedOption === question.correct) {
-      // CORRECT ANSWER
+      // CORRECT ANSWER - add green border and show Next button
       this.state.state = 'correct';
       buttonElement.classList.add('correct');
       buttons.forEach(btn => btn.style.pointerEvents = 'none');
-      setBaoState('correct');
 
       // Show Next button
       const nextBtn = document.getElementById('next-btn');
@@ -223,48 +170,30 @@ class QuizApp {
         nextBtn.style.display = 'inline-block';
       }
     } else {
-      // WRONG ANSWER
+      // WRONG ANSWER - add red border to selected button only
       this.state.state = 'wrong';
       this.state.recordWrongAnswer();
       buttonElement.classList.add('wrong');
       buttons.forEach(btn => btn.style.pointerEvents = 'none');
-      setBaoState('wrong');
 
-      // Setup one-time reset listener for ANY click
-      this.state.resetClickListener = () => this.handleReset(question);
+      // Setup one-time click listener to clear borders (ANY click anywhere)
+      this.state.resetClickListener = () => this.handleReset(buttons);
       document.addEventListener('click', this.state.resetClickListener, { once: true });
     }
   }
 
-  handleReset(question) {
+  handleReset(buttons) {
     // Triggered by any click after wrong answer
     if (this.state.state !== 'wrong') return;
 
-    this.state.state = 'reshuffling';
-    setBaoState('reshuffling');
-
-    // Reshuffle options
-    question.options = shuffle([...question.options]);
-
-    // Re-render buttons
-    const container = document.getElementById('answers-container');
-    container.innerHTML = '';
-
-    question.options.forEach(option => {
-      const newButton = document.createElement('button');
-      newButton.className = 'answer-btn';
-      newButton.textContent = option;
-      newButton.style.pointerEvents = 'auto';
-      newButton.addEventListener('click', (e) => {
-        e.stopPropagation();
-        this.handleAnswer(option, newButton, question, null);
-      });
-      container.appendChild(newButton);
+    // Clear borders and re-enable pointer events
+    buttons.forEach(btn => {
+      btn.classList.remove('wrong');
+      btn.style.pointerEvents = 'auto';
     });
 
     // Back to idle
     this.state.state = 'idle';
-    setBaoState('idle');
   }
 
   handleNext() {
