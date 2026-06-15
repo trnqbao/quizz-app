@@ -4,8 +4,8 @@
     "question": "53. Bệnh nhân nam, 41 tuổi, vào viện vì đau lưng. Bệnh nhân được chẩn đoán Đau lưng do can thận bất túc phong hàn thấp và được tư vấn châm theo YHCT. Nguyên nhân gây bệnh phù hợp nhất là:",
     "correct": "Can thận hư kết hợp ngoại nhân phong hàn thấp",
     "options": [
-      "Ngoại nhân (phong hàn thấp)",
       "Bất nội ngoại nhân",
+      "Ngoại nhân (phong hàn thấp)",
       "Can thận hư kết hợp ngoại nhân phong hàn thấp",
       "Thận âm hư, thận dương hư kết hợp phong hàn"
     ]
@@ -15,10 +15,10 @@
     "question": "55. Bệnh nhân nữ, 67 tuổi, vào viện vì mệt mỏi, tiểu nhiều. Bệnh nhân được chẩn đoán Đái tháo đường thể hạ tiểu. Chẩn đoán bát cương phù hợp là:",
     "correct": "Lý hư nhiệt",
     "options": [
-      "Lý hư hàn",
-      "Lý hư nhiệt",
       "Lý hư thực thác tạp thiên hàn",
-      "Biểu lý tương kiêm, hư trung hiệp thực nhiệt"
+      "Lý hư hàn",
+      "Biểu lý tương kiêm, hư trung hiệp thực nhiệt",
+      "Lý hư nhiệt"
     ]
   },
   {
@@ -26,10 +26,10 @@
     "question": "58. Một bệnh nhân đau khớp gối, đau nhiều lúc thời tiết ẩm lạnh, đau giảm khi xoa bóp chườm nóng, cơ thể mệt, ăn kém. Bài thuốc phù hợp nhất là:",
     "correct": "Độc hoạt tang ký sinh thang gia giảm",
     "options": [
-      "Quế chi thang",
       "Độc hoạt tang ký sinh thang gia giảm",
-      "Tứ quân tử thang",
-      "Lục vị hoàn"
+      "Quế chi thang",
+      "Lục vị hoàn",
+      "Tứ quân tử thang"
     ]
   },
   {
@@ -38,9 +38,9 @@
     "correct": "Háo suyễn",
     "options": [
       "Hung thống",
+      "Tiện bí",
       "Háo suyễn",
-      "Tiêu khát",
-      "Tiện bí"
+      "Tiêu khát"
     ]
   },
   {
@@ -49,9 +49,9 @@
     "correct": "Thủy thấp cảm nhiễm bì phu",
     "options": [
       "Thủy thấp ứ đọng lâu ngày ở cơ nhục",
+      "Thủy thấp ứ đọng lâu ngày ở tỳ",
       "Thủy thấp ứ đọng lâu ngày ở bì phu",
-      "Thủy thấp cảm nhiễm bì phu",
-      "Thủy thấp ứ đọng lâu ngày ở tỳ"
+      "Thủy thấp cảm nhiễm bì phu"
     ]
   },
   {
@@ -59,10 +59,10 @@
     "question": "64. Bệnh nhân nữ, 40 tuổi, vào viện vì phù 2 chân, bệnh nhân có các chứng trạng:\r\nPhù toàn thân, mệt mỏi, đoản khí, lưng gối mỏi, khát nước, táo bón, mạch trầm tế. Chẩn đoán bát cương phù hợp nhất là:",
     "correct": "Lý hư nhiệt",
     "options": [
-      "Biểu lý tương kiêm, hư, nhiệt",
-      "Lý, hư trung hiệp thực, nhiệt",
       "Lý thực nhiệt",
-      "Lý hư nhiệt"
+      "Lý hư nhiệt",
+      "Lý, hư trung hiệp thực, nhiệt",
+      "Biểu lý tương kiêm, hư, nhiệt"
     ]
   },
   {
@@ -82,9 +82,9 @@
     "correct": "Hội chứng thận hư",
     "options": [
       "Rối loạn chuyển hóa lipid máu",
-      "Rối loạn chuyển hóa lipid máu/ Viêm cầu thận mạn",
       "Hội chứng thận hư",
-      "Rối loạn chuyển hóa lipid máu/ Suy thận"
+      "Rối loạn chuyển hóa lipid máu/ Suy thận",
+      "Rối loạn chuyển hóa lipid máu/ Viêm cầu thận mạn"
     ]
   },
   {
@@ -92,10 +92,10 @@
     "question": "68. Bệnh nhân nam 23 tuổi vào viện vì phù toàn thân. Phù trắng phù mềm ấn lõm, tiểu ít. Huyết áp 110/70 mmHg. Xét nghiệm máu: Cholesterol TP 9.35 mmol/l, LDL-cho 8.3 mmol/l, Albumin 26 g/l, Creatinin 78 micromol/l. Xét nghiệm nước tiểu có protein niệu 4.8g/24h. Sắc mặt hồng, miệng đắng dính khô, không muốn uống, toàn thân có mụn, lở loét chảy nước vàng dính, tiểu tiện ngắn đoản sáp dắt, đại tiện không thông, rêu lưỡi vàng dày, lưỡi hồng, mạch hoạt sác. Chẩn đoán bệnh danh theo YHCT cho bệnh nhân trên:",
     "correct": "Chứng thủy thũng",
     "options": [
+      "Chứng thủy thũng",
       "Lâm chứng",
-      "Chứng Thận hư",
       "Chứng Quan cách",
-      "Chứng thủy thũng"
+      "Chứng Thận hư"
     ]
   },
   {
@@ -103,9 +103,9 @@
     "question": "69. Bệnh nhân nam 20 tuổi vào viện vì phù toàn thân. Phù trắng phù mềm ấn lõm, tiểu ít. Huyết áp 120/70 mmHg. Xét nghiệm máu: Cholesterol TP 10.35 mmol/l, LDL-cho 9 mmol/l, Albumin 24 g/l, Creatinin 70 micromol/l. Xét nghiệm nước tiểu có protein niệu 5g/24h. Sắc mặt hồng, miệng đắng dính khô, không muốn uống, toàn thân có mụn, lở loét chảy nước vàng dính, tiểu tiện ngắn đoản sáp dắt, đại tiện không thông, rêu lưỡi vàng dày, lưỡi hồng, mạch hoạt sác. Chẩn đoán sơ bộ về YHHĐ cho bệnh nhân trên:",
     "correct": "Hội chứng thận hư",
     "options": [
+      "Rối loạn chuyển hóa lipid/ Suy thận",
       "Hội chứng thận hư",
       "Rối loạn chuyển hóa lipid/ Viêm cầu thận",
-      "Rối loạn chuyển hóa lipid/ Suy thận",
       "Rối loạn chuyển hóa lipid/ Suy thận - Suy gan"
     ]
   },
@@ -114,10 +114,10 @@
     "question": "70. Một bệnh nhân nữ 20 tuổi sau khi đặt sonde dẫn lưu nước tiểu thấy xuất hiện triệu chứng: Đau tức hạ vị, đái buốt, đái rắt, đái buốt nước tiểu đục có mùi hôi, sốt, khát nước, mặt đỏ, ngủ ít hay mơ, mạch trầm sác. Chẩn đoán sơ bộ YHHĐ:",
     "correct": "Viêm bàng quang cấp",
     "options": [
-      "Viêm cầu thận cấp",
       "Viêm bàng quang cấp",
       "Sỏi thận",
-      "Viêm cầu thận mạn"
+      "Viêm cầu thận mạn",
+      "Viêm cầu thận cấp"
     ]
   },
   {
@@ -125,10 +125,10 @@
     "question": "72. Bệnh nhân nam 45 tuổi, có tiền sử uống rượu nhiều, đã xét nghiệm nhiều lần có men gan cao, không điều trị tích cực. Đợt này bệnh nhân xuất hiện đau tức hạ sườn phải, chướng bụng nhiều, da vàng, mắt vàng, người gầy, gan to, lách to, lưỡi có điểm ứ huyết, mạch huyền tế sác. Chẩn đoán bệnh danh là gì?",
     "correct": "Cổ chướng; hiếp thống",
     "options": [
-      "Hưng thống",
-      "Cổ chướng; hiếp thống",
       "Âm hoàng",
-      "Vị quản thống"
+      "Vị quản thống",
+      "Cổ chướng; hiếp thống",
+      "Hưng thống"
     ]
   },
   {
@@ -138,8 +138,8 @@
     "options": [
       "Âm hư – Nội nhiệt",
       "Nhiệt – Thực",
-      "Hàn – Thực",
-      "Hàn – Hư"
+      "Hàn – Hư",
+      "Hàn – Thực"
     ]
   },
   {
@@ -147,10 +147,10 @@
     "question": "74. Triệu chứng nào là căn cứ để phân biệt thể bệnh phong hàn thấp tý và phong nhiệt thấp tý?",
     "correct": "Các khớp nóng đỏ",
     "options": [
-      "Các khớp sưng",
+      "Đau dữ dội",
       "Các khớp nóng đỏ",
-      "Các khớp biến dạng",
-      "Đau dữ dội"
+      "Các khớp sưng",
+      "Các khớp biến dạng"
     ]
   },
   {
@@ -158,10 +158,10 @@
     "question": "75. Đau mỏi lưng, đau lâu ngày, cơ cạnh sống không co cứng, kèm theo người mệt mỏi, cốt chưng, triều nhiệt, ngủ ít, ngũ tâm phiền nhiệt, thỉnh thoảng bốc hỏa, tiểu vàng, lưỡi đỏ, rêu ít, mạch trầm tế sác. Chẩn đoán bát cương là:",
     "correct": "Biểu lý tương kiêm, hư trung hiệp thực, thiên nhiệt",
     "options": [
-      "Lý, hư trung hiệp thực, thiên hàn",
-      "Biểu lý tương kiêm, hư trung hiệp thực, thiên hàn",
       "Biểu lý tương kiêm, hư hàn",
-      "Biểu lý tương kiêm, hư trung hiệp thực, thiên nhiệt"
+      "Biểu lý tương kiêm, hư trung hiệp thực, thiên hàn",
+      "Biểu lý tương kiêm, hư trung hiệp thực, thiên nhiệt",
+      "Lý, hư trung hiệp thực, thiên hàn"
     ]
   },
   {
@@ -169,10 +169,10 @@
     "question": "76. Bệnh nhân nữ 72 tuổi, tiền sử Thoái hóa khớp gối. Khớp đau ê ẩm, mỏi nặng, đau nhiều khi trời ẩm lạnh và giảm khi chườm nóng. Kèm theo đau lưng, mỏi gối, tiểu đêm, ù tai, ngủ kém. Khám thấy lưỡi nhạt, rêu trắng mỏng, mạch Trầm Tế. Phân tích Bát cương và xác định Thể bệnh theo YHCT của bệnh nhân là phù hợp nhất với chẩn đoán nào sau đây?",
     "correct": "Can Thận Hư kèm Phong Hàn Thấp Tý",
     "options": [
-      "Biểu, Hư, Nhiệt; Thể bệnh: Can Thận Âm Hư",
+      "Lý, Hư, Hàn; Thể bệnh: Khí Huyết Bất Túc",
       "Lý, Thực, Hàn; Thể bệnh: Phong Hàn Thấp Tý",
-      "Can Thận Hư kèm Phong Hàn Thấp Tý",
-      "Lý, Hư, Hàn; Thể bệnh: Khí Huyết Bất Túc"
+      "Biểu, Hư, Nhiệt; Thể bệnh: Can Thận Âm Hư",
+      "Can Thận Hư kèm Phong Hàn Thấp Tý"
     ]
   },
   {
@@ -180,10 +180,10 @@
     "question": "77. Bệnh nhân nam 80 tuổi, nghề nghiệp giáo viên cấp 3 về hưu, bị bệnh hơn 15 năm nay và đặc điểm hay phát bệnh vào mùa đông. Đợt 1/2016 lại vào viện điều trị với các triệu chứng khó thở đột ngột, thở có tiếng rít, khó thở thì thở ra và đã được điều trị ổn định ra viện với chẩn đoán Tây y là Hen phế quản. Hiện tại bệnh nhân hết triệu chứng thở rít, đỡ khó thở nhiều, tuy nhiên còn có biểu hiện triệu chứng sợ lạnh, sắc mặt trắng bệch, hồi hộp, ù tai, hơi thở ngắn gấp, càng lao động càng tăng, khạc đờm có bọt, lưng gối mỏi yếu, nước tiểu trong dài, tiểu đêm nhiều lần, lưỡi đạm, rêu lưỡi nhuận, mạch trầm tế vô lực. Chẩn đoán tạng phủ ở bệnh nhân này là:",
     "correct": "Thận dương hư",
     "options": [
-      "Thận dương hư",
-      "Phế âm hư",
+      "Thận âm hư",
       "Phế khí hư",
-      "Thận âm hư"
+      "Phế âm hư",
+      "Thận dương hư"
     ]
   },
   {
@@ -192,9 +192,9 @@
     "correct": "Lý Hư Hàn",
     "options": [
       "Lý Hư Nhiệt",
-      "Biểu Hư Hàn",
       "Lý Hư Hàn",
-      "Biểu Thực Hàn"
+      "Biểu Thực Hàn",
+      "Biểu Hư Hàn"
     ]
   },
   {
@@ -203,9 +203,9 @@
     "correct": "Bất nội ngoại nhân: sai tư thế",
     "options": [
       "Bất nội ngoại nhân: sai tư thế",
-      "Ngoại nhân: phong hàn thấp",
+      "Ngoại nhân: hàn thấp",
       "Ngoại nhân: phong hàn",
-      "Ngoại nhân: hàn thấp"
+      "Ngoại nhân: phong hàn thấp"
     ]
   },
   {
@@ -214,9 +214,9 @@
     "correct": "Biểu thực hàn",
     "options": [
       "Biểu thực hàn",
-      "Lý Hư Hàn",
       "Lý Hư Nhiệt",
-      "Biểu Hư Hàn"
+      "Biểu Hư Hàn",
+      "Lý Hư Hàn"
     ]
   },
   {
@@ -224,9 +224,9 @@
     "question": "81. Bệnh nhân nữ 30 tuổi vào viện với lý do đau vùng mạn sườn (T). Tiền sử: khỏe mạnh. Nghề nghiệp: nhân viên văn phòng. Bệnh diễn biến cấp 02 ngày nay, sau khi gặp gió lạnh, xuất hiện đau vùng kẽ liên sườn, đau tăng khi hít sâu nhất là khi ấn dọc kẽ liên sườn bên trái, ho, thở đều đau. Toàn thân: thể trạng trung bình, sợ gió, sợ lạnh, tiểu trong, đại tiện bình thường, lưỡi hồng, rêu lưỡi trắng mỏng, mạch phù khẩn.\r\nChọn đáp án phù hợp cho chẩn đoán nguyên nhân gây bệnh:",
     "correct": "Ngoại nhân: phong hàn",
     "options": [
+      "Ngoại nhân: phong hàn",
       "Ngoại nhân: phong thấp",
       "Ngoại nhân: phong hàn thấp",
-      "Ngoại nhân: phong hàn",
       "Ngoại nhân: hàn thấp"
     ]
   },
@@ -235,10 +235,10 @@
     "question": "82. Bệnh nhân nữ 30 tuổi vào viện với lý do đau vùng mạn sườn (T). Tiền sử: khỏe mạnh. Nghề nghiệp: nhân viên văn phòng. Bệnh diễn biến cấp 02 ngày nay, sau khi gặp gió lạnh, xuất hiện đau vùng kẽ liên sườn, đau tăng khi hít sâu nhất là khi ấn dọc kẽ liên sườn bên trái, ho, thở đều đau. Toàn thân: thể trạng trung bình, sợ gió, sợ lạnh, tiểu trong, đại tiện bình thường, lưỡi hồng, rêu lưỡi trắng mỏng, mạch phù khẩn.\r\nChọn đáp án phù hợp nhất cho chẩn đoán bát cương:",
     "correct": "Biểu, Thực, Hàn",
     "options": [
-      "Lý, Thực, Hàn",
-      "Biểu lý tương kiêm, Hư trung hiệp thực, Hàn",
       "Biểu, Thực, Hàn",
-      "Biểu lý tương kiêm, Thực, Hàn"
+      "Lý, Thực, Hàn",
+      "Biểu lý tương kiêm, Thực, Hàn",
+      "Biểu lý tương kiêm, Hư trung hiệp thực, Hàn"
     ]
   },
   {
@@ -246,10 +246,10 @@
     "question": "83. Bệnh nhân nữ 23 tuổi vào viện với lý do mệt mỏi, ăn kém. Tiền sử: sốt xuất huyết. Nghề nghiệp: sinh viên. Bệnh diễn biến nửa tháng nay, sau khi điều trị sốt xuất huyết bệnh nhân khô miệng họng nhiều, nhất là sau khi ngủ dậy, không muốn ăn, trằn trọc, sốt nhẹ, lưỡi đỏ, ít rêu, táo bón, mạch tế sác. Phương thuốc điều trị phù hợp nhất là gì?",
     "correct": "Ích vị thang",
     "options": [
+      "Chứng âm lý lao thang",
       "Bổ can thang",
       "Tứ vật thang",
-      "Ích vị thang",
-      "Chứng âm lý lao thang"
+      "Ích vị thang"
     ]
   },
   {
@@ -257,9 +257,9 @@
     "question": "84. Bệnh nhân nữ 65 tuổi vào viện với lý do mệt mỏi, ho nhiều, ăn kém. Tiền sử: viêm phế quản mạn. Nghề nghiệp: nông dân. Bệnh diễn biến nửa tháng nay, sau khi điều trị một đợt cấp viêm phế quản mạn, thấy họng khô, ho khan đờm ít khó ra máu, người gầy nhiều, chất lưỡi đỏ, ra mồ hôi trộm, mạch tế sác. Phương thuốc điều trị là gì?",
     "correct": "Bách hợp cố kim thang",
     "options": [
-      "Thiên vương bổ tâm đan",
       "Bách hợp cố kim thang",
       "Tứ quân tử thang",
+      "Thiên vương bổ tâm đan",
       "Bổ phế thang"
     ]
   },
@@ -268,9 +268,9 @@
     "question": "85. Bệnh nhân nữ 50 tuổi, thỉnh thoảng có cơn hoa mắt chóng mặt, đau đầu, kèm theo bốc nóng. Người co tâm giao (lục tặc). Khám mạn sườn đau, lưng gối mỏi, ngủ ít, lưỡi đỏ, mạch huyền. Chẩn đoán nhóm nguyên nhân trong trường hợp này là:",
     "correct": "Nội nhân: tình chí",
     "options": [
-      "Nội nhân: tình chí",
-      "Ngoại nhân: phong nhiệt",
       "Bất nội ngoại nhân: đàm ẩm",
+      "Ngoại nhân: phong nhiệt",
+      "Nội nhân: tình chí",
       "Ngoại nhân: phong thấp"
     ]
   },
@@ -280,9 +280,9 @@
     "correct": "Lý hư trung hiệp thực nhiệt",
     "options": [
       "Biểu lý tương kiêm hư trung hiệp thực nhiệt",
-      "Biểu thực nhiệt",
+      "Lý hư trung hiệp thực nhiệt",
       "Lý hư nhiệt",
-      "Lý hư trung hiệp thực nhiệt"
+      "Biểu thực nhiệt"
     ]
   },
   {
@@ -291,8 +291,8 @@
     "correct": "Lý hư nhiệt",
     "options": [
       "Biểu lý tương kiêm hư trung hiệp thực nhiệt",
-      "Lý hư nhiệt",
       "Lý thực nhiệt",
+      "Lý hư nhiệt",
       "Lý hư trung hiệp thực nhiệt"
     ]
   },
@@ -301,10 +301,10 @@
     "question": "89. Bệnh nhân nam 58 tuổi, xuất hiện hoa mắt chóng mặt vài ngày nay, đôi lúc lợm giọng buồn nôn, bụng ngực đầy, ăn ít, người mệt mỏi, rêu lưỡi trắng bẩn, mạch trầm hoạt. Bệnh nhân thể trạng béo bệu, thích đồ xào rán, lòng lợn tiết canh.\r\nChẩn đoán nguyên nhân trường hợp này là?",
     "correct": "Bất nội ngoại nhân: ăn uống không điều độ",
     "options": [
-      "Ngoại nhân: phong hàn",
-      "Bất nội ngoại nhân: ăn uống không điều độ",
       "Nội nhân: tình chí uất kết",
-      "Bất nội ngoại nhân: Huyết ứ"
+      "Ngoại nhân: phong hàn",
+      "Bất nội ngoại nhân: Huyết ứ",
+      "Bất nội ngoại nhân: ăn uống không điều độ"
     ]
   },
   {
@@ -312,10 +312,10 @@
     "question": "91. Bệnh nhân nam 30 tuổi vào viện vì phù nhẹ chân. Bệnh nhân có các triệu chứng: Sắc mặt đen sạm, lợm giọng, buồn nôn, bụng trướng, mạch huyền tế. Chẩn đoán bát cương phù hợp nhất là:",
     "correct": "Lý hư trung hiệp thực hàn",
     "options": [
-      "Lý hư hàn",
-      "Lý thực hàn",
       "Lý hư trung hiệp thực hàn",
-      "Lý hư trung hiệp thực nhiệt"
+      "Lý hư trung hiệp thực nhiệt",
+      "Lý hư hàn",
+      "Lý thực hàn"
     ]
   },
   {
@@ -324,9 +324,9 @@
     "correct": "Lý hư trung hiệp thực nhiệt",
     "options": [
       "Lý thực nhiệt",
+      "Lý hư trung hiệp thực nhiệt",
       "Biểu lý tương kiêm thực hàn",
-      "Lý hư nhiệt",
-      "Lý hư trung hiệp thực nhiệt"
+      "Lý hư nhiệt"
     ]
   },
   {
@@ -335,9 +335,9 @@
     "correct": "Lý hư hàn",
     "options": [
       "Lý thực hàn",
+      "Lý hư hàn",
       "Lý hư trung hiệp thực nhiệt",
-      "Lý hư trung hiệp thực hàn",
-      "Lý hư hàn"
+      "Lý hư trung hiệp thực hàn"
     ]
   },
   {
@@ -345,10 +345,10 @@
     "question": "95. Phù toàn thân trong viêm cầu thận cấp thể thủy thấp nguyên nhân do tỳ bị thấp dẫn đến:",
     "correct": "Dương khí không thư thái nên người mệt mỏi, thân mình nặng nề, tức ngực chán ăn",
     "options": [
-      "Dương khí không thông nên toàn thân nhức mỏi, nặng nề",
-      "Dương khí không thư thái nên người mệt mỏi, thân mình nặng nề, tức ngực chán ăn",
       "Dương khí không thông nên ăn uống kém, đắng miệng",
-      "Dương khí không thông nên đau mỏi toàn thân, phù nặng"
+      "Dương khí không thông nên toàn thân nhức mỏi, nặng nề",
+      "Dương khí không thông nên đau mỏi toàn thân, phù nặng",
+      "Dương khí không thư thái nên người mệt mỏi, thân mình nặng nề, tức ngực chán ăn"
     ]
   },
   {
@@ -369,8 +369,8 @@
     "options": [
       "Mạch môn, đẳng sâm, ngũ vị tử, trạch tả, đan bì, hoài sơn",
       "Phụ tử chế, sinh khương, bạch truật, bạch thược, bạch linh",
-      "Thục địa, sơn thù, trạch tả, đan bì, sa tiền, hoàng bá, tri mẫu, ngưu tất",
-      "Tỳ giải, hoàng bá, thạch xương bồ, bạch linh, liên nhục, đan sâm, sa tiền tử"
+      "Tỳ giải, hoàng bá, thạch xương bồ, bạch linh, liên nhục, đan sâm, sa tiền tử",
+      "Thục địa, sơn thù, trạch tả, đan bì, sa tiền, hoàng bá, tri mẫu, ngưu tất"
     ]
   },
   {
@@ -389,10 +389,10 @@
     "question": "99. Bệnh nhân nam 50 tuổi, có tiền sử viêm gan B mạn tính, không thăm khám và điều trị thường xuyên. Đợt này bệnh nhân xuất hiện người mệt, da vàng sạm, miệng khô họng khô, hay chảy máu chân răng, người nóng, chân phù, cổ trướng ít, đại tiện táo, tiểu tiện đỏ, chất lưỡi đỏ ít rêu, mạch huyền tế sác. Chẩn đoán thể bệnh là gì?",
     "correct": "Xơ gan thể Âm hư thấp nhiệt",
     "options": [
-      "Xơ gan thể Khí trệ huyết ứ",
       "Xơ gan thể Can thận âm hư",
-      "Xơ gan thể Âm hư thấp nhiệt",
-      "Xơ gan thể Can tỳ huyết ứ"
+      "Xơ gan thể Khí trệ huyết ứ",
+      "Xơ gan thể Can tỳ huyết ứ",
+      "Xơ gan thể Âm hư thấp nhiệt"
     ]
   },
   {
@@ -400,10 +400,10 @@
     "question": "101. Bệnh nhân có tiền sử xơ gan do rượu đã điều trị nhiều đợt. Đợt này bệnh nhân xuất hiện bụng chướng như ếch, gõ đục, vùng mạn sườn bẹn, chân phù, tiểu tiện đại tiện không thông lợi, sắc mặt vàng nhợt, ngực ngực không muốn ăn, sợ lạnh, lưng lạnh, rêu lưỡi trắng dầy nhớt, mạch trầm tế. Chẩn đoán bát cương là gì?",
     "correct": "Lý, hư thực thác tạp, hàn",
     "options": [
-      "Lý hư hàn",
+      "Lý, hư thực thác tạp",
       "Lý, hư thực lẫn lộn, thiên nhiệt",
       "Lý, hư thực thác tạp, hàn",
-      "Lý, hư thực thác tạp"
+      "Lý hư hàn"
     ]
   },
   {
@@ -412,8 +412,8 @@
     "correct": "Lý, hư thực thác tạp, hàn",
     "options": [
       "Lý, hư thực thác tạp",
-      "Lý hư hàn",
       "Lý, hư thực lẫn lộn, thiên nhiệt",
+      "Lý hư hàn",
       "Lý, hư thực thác tạp, hàn"
     ]
   },
@@ -422,8 +422,8 @@
     "question": "103. Bệnh nhân nữ 50 tuổi vào viện với lý do hay hồi hộp, khó thở. Bệnh nhân kể khó thở có lúc không nằm được, đi lại khó thở nhiều, không thể làm việc nặng. Khám thấy bệnh nhân phù toàn thân nhất là chi dưới, đái ít, hay có cơn bốc hỏa, chất lưỡi đạm có nhiều điểm ứ huyết, mạch trầm tế kết đại. Đưa ra chẩn đoán bát cương cho bệnh nhân này?",
     "correct": "Lý hư hàn",
     "options": [
-      "Lý hư trung hiệp thực nhiệt",
       "Lý hư hàn",
+      "Lý hư trung hiệp thực nhiệt",
       "Lý thực hàn",
       "Lý hư trung hiệp thực hàn"
     ]
@@ -433,10 +433,10 @@
     "question": "105. Một bệnh nhân nữ 60 tuổi vào viện với lý do: khó thở. Bệnh nhân kể khoảng mấy tháng gần đây hay xuất hiện mệt mỏi, khó thở nhiều, tăng lên khi đi lại vận động, không ho, không sốt. Khám thấy bệnh nhân tỉnh, tiếp xúc tốt, sắc mặt trắng bệch, phù nặng mặt và 2 chi dưới, thở gấp, chân tay lạnh, tự hãn, nước tiểu ít, mạch kết đại. Đưa ra chẩn đoán bát cương cho bệnh nhân này?",
     "correct": "Lý hư hàn",
     "options": [
-      "Lý thực hàn",
-      "Lý hư trung hiệp thực nhiệt",
+      "Lý hư trung hiệp thực hàn",
       "Lý hư hàn",
-      "Lý hư trung hiệp thực hàn"
+      "Lý thực hàn",
+      "Lý hư trung hiệp thực nhiệt"
     ]
   },
   {
@@ -445,8 +445,8 @@
     "correct": "Suy tim thể âm dương khí huyết đều hư",
     "options": [
       "Suy tim thể khí âm lưỡng hư",
-      "Suy tim thể tâm dương hư",
       "Suy tim thể âm dương khí huyết đều hư",
+      "Suy tim thể tâm dương hư",
       "Suy tim thể âm hư"
     ]
   },
@@ -466,10 +466,10 @@
     "question": "111. Bệnh nhân viêm cầu thận mạn, gần đây xuất hiện nhức đầu, chóng mặt, hồi hộp, miệng khát, họng khô. Khám thấy chất lưỡi đỏ, mạch Huyền Sác. Thể bệnh và bát cương được biện chứng trong trường hợp này là:",
     "correct": "Thể Âm hư Dương xung; Bát cương: Lý, Hư, Nhiệt",
     "options": [
-      "Thể Uất nhiệt hóa hỏa; Bát cương: Lý, Thực, Nhiệt",
-      "Thể Âm hư Dương xung; Bát cương: Lý, Hư, Nhiệt",
       "Thể Phong tà thấp nhiệt; Bát cương: Biểu lý tương kiêm, Thực, Nhiệt",
-      "Thể Thận tỳ dương hư; Bát cương: Lý, Hư, Hàn"
+      "Thể Uất nhiệt hóa hỏa; Bát cương: Lý, Thực, Nhiệt",
+      "Thể Thận tỳ dương hư; Bát cương: Lý, Hư, Hàn",
+      "Thể Âm hư Dương xung; Bát cương: Lý, Hư, Nhiệt"
     ]
   },
   {
@@ -488,10 +488,10 @@
     "question": "113. Bệnh nhân 40 tuổi phù toàn thân, cơ thể nặng nề, ăn kém, rêu lưỡi dày trắng nhớt, mạch trầm hoàn. Thuộc thể Thủy thũng nào?",
     "correct": "Thấp thủy",
     "options": [
-      "Thấp nhiệt",
       "Âm thủy",
-      "Thấp thủy",
-      "Phong thủy"
+      "Phong thủy",
+      "Thấp nhiệt",
+      "Thấp thủy"
     ]
   },
   {
@@ -499,10 +499,10 @@
     "question": "114. Bệnh nhân nhi 8 tuổi, đột ngột phù mặt và nửa người trên, sau đó phù toàn thân. Kèm theo sốt, gai rét, tiểu tiện ít. Khám thấy rêu lưỡi trắng dày, mạch Phù. Thể bệnh và Bát cương phù hợp nhất với tình huống này là:",
     "correct": "Thể Phong Thủy (Phong Tà); Bát cương: Biểu, Thực, Hàn",
     "options": [
-      "Thể Thủy Thấp; Bát cương: Lý, Thực, Hàn",
       "Thể Thấp Nhiệt; Bát cương: Lý, Thực, Nhiệt",
-      "Thể Can Thận Âm Hư; Bát cương: Lý, Hư, Nhiệt",
-      "Thể Phong Thủy (Phong Tà); Bát cương: Biểu, Thực, Hàn"
+      "Thể Phong Thủy (Phong Tà); Bát cương: Biểu, Thực, Hàn",
+      "Thể Thủy Thấp; Bát cương: Lý, Thực, Hàn",
+      "Thể Can Thận Âm Hư; Bát cương: Lý, Hư, Nhiệt"
     ]
   },
   {
@@ -510,9 +510,9 @@
     "question": "115. Bệnh nhân nam 52 tuổi, phù toàn thân, nổi nhẹ kẽn cổ, thân mình nặng nề, ngực tức, ăn kém. Khám thấy rêu lưỡi dày nhớt, mạch Trầm Hoàn. Thể bệnh và Bát cương được biện chứng là:",
     "correct": "Thể Thủy Thấp; Bát cương: Lý, Thực, Hàn",
     "options": [
-      "Thể Phong Thủy; Bát cương: Biểu, Thực, Hàn",
       "Thể Thận Tỳ Dương Hư; Bát cương: Lý, Hư, Hàn",
       "Thể Thủy Thấp; Bát cương: Lý, Thực, Hàn",
+      "Thể Phong Thủy; Bát cương: Biểu, Thực, Hàn",
       "Thể Thấp Nhiệt; Bát cương: Lý, Thực, Nhiệt"
     ]
   },
@@ -521,10 +521,10 @@
     "question": "117. Bệnh nhân nữ 62 tuổi, phù toàn thân tăng buổi sáng; tiểu ít và trong, sợ lạnh, không ra mồ hôi, tứ chi lạnh, mệt mỏi, ngại nói, bụng đầy, ăn kém, đại tiện nát, đêm ngày tiểu 2–3 lần. Lưỡi nhợt to, rêu trắng mỏng, mạch trầm khẩn. Chẩn đoán bát cương phù hợp:",
     "correct": "Lý - Hàn - Hư",
     "options": [
-      "Biểu - Hàn - Thực",
-      "Lý - Nhiệt - Thực",
       "Biểu - Hàn - Hư",
-      "Lý - Hàn - Hư"
+      "Lý - Hàn - Hư",
+      "Biểu - Hàn - Thực",
+      "Lý - Nhiệt - Thực"
     ]
   },
   {
@@ -532,10 +532,10 @@
     "question": "118. Bệnh nhân nữ 62 tuổi, phù toàn thân tăng buổi sáng, tiểu ít và trong, sợ lạnh, không ra mồ hôi, tứ chi lạnh, mệt mỏi, ngại nói, bụng đầy, ăn kém, đại tiện nát, đêm dậy tiểu 2-3 lần. Lưỡi nhợt to, rêu trắng mỏng, mạch trầm khẩn. Dựa vào triệu chứng, bệnh nhân thuộc thể bệnh nào?",
     "correct": "Tỳ thận dương hư",
     "options": [
-      "Khí trệ thủy đình",
-      "Khí âm lưỡng hư",
       "Can thận âm hư",
-      "Tỳ thận dương hư"
+      "Khí âm lưỡng hư",
+      "Tỳ thận dương hư",
+      "Khí trệ thủy đình"
     ]
   },
   {
@@ -544,9 +544,9 @@
     "correct": "Huyết ứ",
     "options": [
       "Âm hư hỏa động",
-      "Thấp nhiệt hạ tiêu",
+      "Huyết ứ",
       "Tỳ thận hư hàn",
-      "Huyết ứ"
+      "Thấp nhiệt hạ tiêu"
     ]
   },
   {
@@ -554,10 +554,10 @@
     "question": "121. Bệnh nhân nữ 50 tuổi, phù toàn thân, chân nặng hơn tay, miệng khô, lưng gối mỏi, đoản khí, tay chân nóng, lưỡi hồng nhạt có rêu, mạch trầm tế. Thể bệnh nào phù hợp nhất?",
     "correct": "Khí âm lưỡng hư",
     "options": [
-      "Khí âm lưỡng hư",
-      "Phong nhiệt phạm phế",
+      "Thấp nhiệt",
       "Khí trệ thủy đình",
-      "Thấp nhiệt"
+      "Khí âm lưỡng hư",
+      "Phong nhiệt phạm phế"
     ]
   },
   {
@@ -567,8 +567,8 @@
     "options": [
       "Can hỏa thiêu đốt mạch lạc",
       "Âm hư nội nhiệt làm huyết đi sai đường",
-      "Tâm hỏa quá thịnh, nhiệt di chuyển xuống bàng quang làm tổn thương mạch lạc",
-      "Thấp nhiệt tích tụ bàng quang"
+      "Thấp nhiệt tích tụ bàng quang",
+      "Tâm hỏa quá thịnh, nhiệt di chuyển xuống bàng quang làm tổn thương mạch lạc"
     ]
   },
   {
@@ -578,8 +578,8 @@
     "options": [
       "Khí Trệ Huyết Ứ",
       "Tỳ Thận Dương Hư",
-      "Âm Hư Thấp Nhiệt",
-      "Can Uất Tỳ Hư"
+      "Can Uất Tỳ Hư",
+      "Âm Hư Thấp Nhiệt"
     ]
   },
   {
@@ -587,10 +587,10 @@
     "question": "125. Bệnh nhân nam 40 tuổi, làm việc căng thẳng, gần đây tâm tư tình trạng uất ức, dễ cáu gắt. Kèm theo ngực sườn đầy tức, hay thở dài, bụng trướng đầy hơi, ăn kém, rêu lưỡi trắng, mạch Huyền. Bát cương phù hợp nhất với tình huống này là:",
     "correct": "Lý, Thực, Nhiệt",
     "options": [
-      "Lý, Thực, Nhiệt",
-      "Lý, Hư, Hàn",
       "Lý, Hư chứng hiệp Thực, Nhiệt",
-      "Lý, Hư, Nhiệt"
+      "Lý, Hư, Nhiệt",
+      "Lý, Thực, Nhiệt",
+      "Lý, Hư, Hàn"
     ]
   },
   {
@@ -598,10 +598,10 @@
     "question": "128. Bệnh nhân 55 tuổi, chóng mặt, ù tai, đầu đau căng, khi tức giận thì đau tăng, ngủ ít, miệng đắng, lưỡi đỏ, mạch Huyền. Bát cương và thể bệnh chính xác nhất là:",
     "correct": "Lý, Thực, Nhiệt - Can dương thượng cang",
     "options": [
+      "Biểu, Thực, Nhiệt - Đàm trọc trung trở",
       "Lý, Hư, Nhiệt - Thận tinh bất túc",
       "Lý, Hư, Hàn - Khí huyết đều hư",
-      "Lý, Thực, Nhiệt - Can dương thượng cang",
-      "Biểu, Thực, Nhiệt - Đàm trọc trung trở"
+      "Lý, Thực, Nhiệt - Can dương thượng cang"
     ]
   },
   {
@@ -609,10 +609,10 @@
     "question": "129. Bệnh nhân 50 tuổi, chóng mặt, váng đầu, lồng ngực đầy, buồn nôn, ăn ít, người mệt mỏi, lưỡi rêu trắng bệu, mạch Nhu Hoạt. Thể bệnh và Bát cương chính xác nhất là:",
     "correct": "Lý, Thực, Hàn; Đàm trọc trung trở",
     "options": [
-      "Lý, Thực, Nhiệt; Can dương thượng cang",
+      "Lý, Thực, Hàn; Đàm trọc trung trở",
       "Lý, Hư, Hàn; Thận tinh bất túc",
-      "Lý, Hư; Khí huyết đều hư",
-      "Lý, Thực, Hàn; Đàm trọc trung trở"
+      "Lý, Thực, Nhiệt; Can dương thượng cang",
+      "Lý, Hư; Khí huyết đều hư"
     ]
   },
   {
@@ -620,10 +620,10 @@
     "question": "130. Bệnh nhân 60 tuổi, váng đầu, hay quên, lưng đau, gối mỏi, tai ù, mất ngủ, di tinh, lòng bàn tay chân hơi nóng, lưỡi đỏ, mạch Tế Sác. Thể bệnh và Bát cương chính xác nhất là:",
     "correct": "Thận âm hư; Lý, Hư, Nhiệt",
     "options": [
-      "Thận dương hư; Lý, Hư, Hàn",
-      "Thận âm hư; Lý, Hư, Nhiệt",
       "Khí huyết đều hư; Lý, Hư",
-      "Đàm trọc trung trở; Lý, Thực, Hàn"
+      "Thận âm hư; Lý, Hư, Nhiệt",
+      "Đàm trọc trung trở; Lý, Thực, Hàn",
+      "Thận dương hư; Lý, Hư, Hàn"
     ]
   },
   {
@@ -631,9 +631,9 @@
     "question": "131. Bệnh nhân 35 tuổi, chóng mặt, hoa mắt, sắc mặt nhợt, hồi hộp, mất ngủ, mệt mỏi, ngại nói, lười ăn, lưỡi nhợt, mạch Tế Nhược. Thể bệnh theo YHCT là:",
     "correct": "Khí huyết đều hư",
     "options": [
-      "Can dương thượng kháng",
       "Đàm thấp nội trở",
       "Đàm trọc trung trở",
+      "Can dương thượng kháng",
       "Khí huyết đều hư"
     ]
   },
@@ -642,9 +642,9 @@
     "question": "133. Bệnh nhân 50 tuổi, đau mạng sườn nhiều, sờ có khối u vùng bụng trái (tích tụ), bụng chướng, môi tím, lưỡi đỏ có ứ huyết, mạch Huyền Tế. Biện chứng này là thể bệnh nào và thuộc cương lĩnh nào?",
     "correct": "Thể Khí Trệ Huyết Ứ; Lý, Thực",
     "options": [
-      "Thể Khí Trệ Huyết Ứ; Lý, Thực",
       "Thể Can Uất Tỳ Hư; Lý, Hư Thực Hiệp Tạp",
       "Thể Âm Hư Thấp Nhiệt; Lý, Hư, Nhiệt",
+      "Thể Khí Trệ Huyết Ứ; Lý, Thực",
       "Thể Tỳ Thận Dương Hư; Lý, Hư, Hàn"
     ]
   },
@@ -653,10 +653,10 @@
     "question": "134. Bệnh nhân cổ trướng, phù chân, sợ lạnh, mệt mỏi, đại tiện lỏng, chất lưỡi nhợt bệu, rêu lưỡi trắng mỏng, mạch Trầm Tế. Thể bệnh chính xác nhất là:",
     "correct": "Tỳ Thận Dương Hư",
     "options": [
-      "Khí Trệ Huyết Ứ",
+      "Can Uất Tỳ Hư",
       "Tỳ Thận Dương Hư",
-      "Âm Hư Thấp Nhiệt",
-      "Can Uất Tỳ Hư"
+      "Khí Trệ Huyết Ứ",
+      "Âm Hư Thấp Nhiệt"
     ]
   },
   {
@@ -664,10 +664,10 @@
     "question": "135. Bệnh nhân nữ 40 tuổi, miệng đắng, ăn kém, đau tức hạ sườn, da vàng nhạt, nước tiểu nhạt, miệng khô nhưng nhớt, lưỡi đỏ, rêu vàng, mạch Huyền Sác. Bát cương và thể bệnh chính xác nhất là:",
     "correct": "Lý, Thực, Nhiệt; Can Nhiệt Tỳ Thấp",
     "options": [
+      "Lý, Thực, Ứ; Khí Trệ Huyết Ứ",
       "Lý, Thực, Nhiệt; Can Nhiệt Tỳ Thấp",
-      "Lý, Hư chứng hiệp Thực; Can Uất Tỳ Hư Khí Trệ",
       "Lý, Hư, Nhiệt; Can Âm Bị Thương Tổn",
-      "Lý, Thực, Ứ; Khí Trệ Huyết Ứ"
+      "Lý, Hư chứng hiệp Thực; Can Uất Tỳ Hư Khí Trệ"
     ]
   },
   {
@@ -675,10 +675,10 @@
     "question": "138. Bệnh nhân 50 tuổi, tim hồi hộp, khó thở, không nằm được, phù toàn thân nhất là chi dưới, tay chân lạnh, đái ít, chất lưỡi đạm có nhiều điểm ứ huyết, mạch Trầm Tế Kết Đại. Thể bệnh chính xác nhất là:",
     "correct": "Tâm Dương Hư",
     "options": [
-      "Khí Âm Hư",
       "Khí Huyết Lưỡng Hư",
       "Can Thận Âm Hư",
-      "Tâm Dương Hư"
+      "Tâm Dương Hư",
+      "Khí Âm Hư"
     ]
   },
   {
@@ -686,10 +686,10 @@
     "question": "139. Bệnh nhân nữ 30 tuổi, tim đập nhanh, hồi hộp, ngủ ít, đầu trọc, sắc mặt nhợt, chất lưỡi đỏ, mạch Tế Nhược Nhanh. Bát cương và thể bệnh chính xác nhất là:",
     "correct": "Lý, Hư; Tâm Huyết Hư",
     "options": [
-      "Lý, Hư; Tâm Huyết Hư",
       "Lý, Hư, Nhiệt; Âm Hư Hỏa Vượng",
       "Lý, Thực; Sang Chấn Tinh Thần Đột Ngột",
-      "Lý, Hư; Tâm Dương Hư"
+      "Lý, Hư; Tâm Dương Hư",
+      "Lý, Hư; Tâm Huyết Hư"
     ]
   },
   {
@@ -698,9 +698,9 @@
     "correct": "Âm Hư Hỏa Vượng",
     "options": [
       "Sang Chấn Tinh Thần Đột Ngột",
+      "Âm Hư Hỏa Vượng",
       "Tâm Huyết Hư",
-      "Dương Hư",
-      "Âm Hư Hỏa Vượng"
+      "Dương Hư"
     ]
   },
   {
@@ -708,10 +708,10 @@
     "question": "1. Bệnh nhân nam 56 tuổi, chánh văn phòng công ty X, vào viện 2/2015 với lý do ho tái phát, khạc đờm. Khoảng 4 năm gần đây đã vào viện vài lần, được chẩn đoán bệnh viêm phế quản và điều trị ổn định. Đợt này lại xuất hiện ho, khạc trời lạnh ho tăng, đờm sắc trắng dễ khạc, thỉnh thoảng khạc ra đờm dính, ho nhiều vào buổi sáng, ngực đầy tức khó chịu, ăn kém, rêu lưỡi trắng dính, mạch nhu hoạt. Bệnh nhân có sở thích ăn đồ béo ngọt, uống nhiều rượu từ thuở trẻ, thể trạng béo: cao 1m60, nặng 78 kg. Chẩn đoán nguyên nhân ở bệnh nhân trên do:",
     "correct": "Ăn uống bất điều làm tỳ mất kiện vận hóa thấp thương tỳ sinh đàm ẩm",
     "options": [
-      "Ngoại cảm phong nhiệt",
-      "Ăn uống bất điều làm tỳ mất kiện vận hóa thấp thương tỳ sinh đàm ẩm",
       "Ngoại cảm phong hàn",
-      "Khí táo"
+      "Khí táo",
+      "Ăn uống bất điều làm tỳ mất kiện vận hóa thấp thương tỳ sinh đàm ẩm",
+      "Ngoại cảm phong nhiệt"
     ]
   },
   {
@@ -719,8 +719,8 @@
     "question": "2. Bệnh nhân nam 56 tuổi, chánh văn phòng công ty X, vào viện 2/2015 với lý do ho tái phát, khạc đờm. Khoảng 4 năm gần đây đã vào viện vài lần, được chẩn đoán bệnh viêm phế quan và điều trị ổn định. Đợt này lại xuất hiện ho, khạc trời lạnh ho tăng, đờm sắc trắng dễ khạc, thỉnh thoảng khạc ra đờm dính, ho nhiều vào buổi sáng, ngực đầy tức khó chịu, ăn kém, rêu lưỡi trắng dính, mạch nhu hoạt. Bệnh nhân có sở thích ăn đồ béo ngọt, uống nhiều rượu từ thời trẻ, thể trạng béo: cao 1m60, nặng 78 kg. Chẩn đoán nguyên nhân bệnh nhân trên do:",
     "correct": "Ăn uống bất điều làm tỳ mất kiện vận hóa thấp thương tỳ sinh đàm ẩm",
     "options": [
-      "Ngoại cảm phong hàn",
       "Ngoại cảm phong nhiệt",
+      "Ngoại cảm phong hàn",
       "Khí táo (a thấy câu 2 giống câu 1)",
       "Ăn uống bất điều làm tỳ mất kiện vận hóa thấp thương tỳ sinh đàm ẩm"
     ]
@@ -730,10 +730,10 @@
     "question": "3. Bệnh nhân nam 56 tuổi, chánh văn phòng công ty X, vào viện 2/2015 với lý do ho tái phát, khạc đờm. Khoảng 4 năm gần đây đã vào viện vài lần, được chẩn đoán bệnh viêm phế quản và điều trị ổn định. Đợt này lại xuất hiện ho, khạc trời lạnh ho tăng, đờm sắc trắng dễ khạc, thỉnh thoảng khạc ra đờm dính hơi nhiều vào buổi sáng, ngực đầy tức khó chịu, ăn kém, rêu lưỡi trắng dính, mạch nhu hoạt. Bệnh nhân có sở thích ăn đồ béo ngọt, uống nhiều rượu ra đời tư, thể trạng béo: cao 1m60, nặng 78 kg. Chẩn đoán bệnh danh ở bệnh nhân trên là:",
     "correct": "Khái thấu",
     "options": [
+      "Phế nuy",
       "Khái thấu",
       "Háo suyễn",
-      "Phế ung",
-      "Phế nuy"
+      "Phế ung"
     ]
   },
   {
@@ -742,8 +742,8 @@
     "correct": "Tang hạnh thang gia giảm",
     "options": [
       "Tiểu thanh long thang gia giảm",
-      "Hạnh tô tán gia giảm",
       "Nhị trần thang gia giảm",
+      "Hạnh tô tán gia giảm",
       "Tang hạnh thang gia giảm"
     ]
   },
@@ -752,10 +752,10 @@
     "question": "5. Bệnh nhân nam 80 tuổi, nghề nghiệp giáo viên cấp 3 về hưu, bị bệnh hơn 15 năm nay và đặc điểm hay phát bệnh vào mùa đông. Đợt 1/2016 lại vào viện điều trị với các triệu chứng khó thở đột ngột, thở có tiếng rít, khó thở thì thở ra và đã được điều trị ổn định ra viện với chẩn đoán Tây y là hen phế quản. Hiện tại bệnh nhân hết triệu chứng thở rít, đỡ khó thở nhiều, tuy nhiên còn có biểu hiện triệu chứng sợ lạnh, sắc mặt trắng bệch, hồi hộp, ù tai, hơi thở ngắn gấp, càng lao động càng tăng, khạc đờm có bọt, lưng gối mỏi yếu, nước tiểu trong dài, tiểu tiện nhiều lần, lưỡi đạm, rêu lưỡi nhuận, mạch trầm tế vô lực. Chẩn đoán tạng phủ ở bệnh nhân này là:",
     "correct": "Thận dương hư",
     "options": [
-      "Phế âm hư",
-      "Thận dương hư",
       "Thận âm hư",
-      "Phế khí hư"
+      "Phế khí hư",
+      "Phế âm hư",
+      "Thận dương hư"
     ]
   },
   {
@@ -763,10 +763,10 @@
     "question": "7. Bệnh nhân nam 80 tuổi, nghề nghiệp giáo viên cấp 3 về hưu, bị bệnh hơn 15 năm nay và đặc điểm hay phát bệnh vào mùa đông. Đợt 1/2016 lại vào viện điều trị với các triệu chứng khó thở đột ngột, thở có tiếng rít, khó thở thì thở ra và đã được điều trị ổn định ra viện với chẩn đoán tây y là hen phế quản. Hiện tại bệnh nhân hết triệu chứng thở rít, đỡ khó thở nhiều, tự nhiên còn có biểu hiện triệu chứng sợ lạnh, sắc mặt trắng bệch, hồi hộp, ù tai, hơi thở ngắn gấp, càng lao động càng tăng, khạc đờm có bọt, lưng gối mỏi yếu, nước tiểu trong dài, tiểu tiện nhiều lần, lưỡi đạm, rêu lưỡi nhuận, mạch trầm tế vô lực. Bệnh nhân được chẩn đoán bát cương theo YHCT là:",
     "correct": "Lý Hư Hàn",
     "options": [
-      "Biểu thực Hàn",
       "Lý Hư Hàn",
       "Biểu Hư Hàn",
-      "Lý Hư Nhiệt"
+      "Lý Hư Nhiệt",
+      "Biểu thực Hàn"
     ]
   },
   {
@@ -774,9 +774,9 @@
     "question": "10. Bệnh nhân nam 64 tuổi, vào viện với biểu hiện đau thắt lưng lan xuống mông và mặt ngoài đùi và cẳng chân trái; đau âm ỉ, cảm giác tê bì, nặng nề, tăng hơn về chiều và đêm; thích xoa nắn vùng thắt lưng, chườm ấm dễ chịu, cơ chân trái teo, chất lưỡi nhợt bệu, rêu lưỡi trắng dày và nhớt, mạch trầm nhược, diễn biến 6 năm, tái phát khi trời lạnh ẩm. Chẩn đoán tạng phủ - kinh lạc là:",
     "correct": "Tạng phủ: Can, thận; Kinh lạc: Túc thiếu dương Đởm kinh",
     "options": [
-      "Tạng phủ: Can, thận; Kinh lạc: Túc thiếu dương Đởm kinh",
       "Tạng phủ: Tỳ, thận; Kinh lạc: Túc dương minh Vị kinh và Túc thiếu dương Đởm kinh",
       "Tạng phủ: Tỳ, thận; Kinh lạc: Túc dương minh Vị kinh và Túc thái dương Bàng quang kinh",
+      "Tạng phủ: Can, thận; Kinh lạc: Túc thiếu dương Đởm kinh",
       "Tạng phủ: Can, thận; Kinh lạc: Túc thái dương Bàng quang kinh"
     ]
   },
@@ -786,9 +786,9 @@
     "correct": "Tỳ, vị, đại trường",
     "options": [
       "Tỳ, tâm, đại trường",
-      "Can, tỳ, thận",
       "Tỳ, vị, đại trường",
-      "Can, đởm, tỳ"
+      "Can, đởm, tỳ",
+      "Can, tỳ, thận"
     ]
   },
   {
@@ -796,10 +796,10 @@
     "question": "12. Bệnh nhân nữ, 50 tuổi, thường hay đại tiện phân nát, diễn biến từng đợt. Đợt này bệnh nhân xuất hiện đại tiện phân nát nhiều lần trong ngày, không có nhầy, kèm đau bụng âm ỉ vùng hố chậu trái, hay sôi bụng, ăn kém chậm tiêu, người mệt mỏi, lưỡi nhợt bệu có hằn răng, rêu lưỡi trắng mỏng, mạch nhu hoãn. Chẩn đoán bát cương của bệnh nhân là?",
     "correct": "Lý, hư, hàn",
     "options": [
-      "Lý, thực, hàn",
+      "Lý, hư, hàn",
       "Lý, hư thực thác tạp, hàn",
       "Lý, hư, hàn nhiệt thác tạp",
-      "Lý, hư, hàn"
+      "Lý, thực, hàn"
     ]
   },
   {
@@ -807,10 +807,10 @@
     "question": "13. Bệnh nhân nữ, 63 tuổi, có những triệu chứng: đại tiện khô kết như phân dê, người gầy, triều nhiệt đạo hãn, họng khô, miệng khô, khát nước, hay lở loét miệng, váng đầu, tai ù, hai gò má đỏ, tâm phiền ngủ ít, lưng gối nhức mỏi. Chất lưỡi đỏ, rêu ít; Mạch tế sác.\r\nChẩn đoán bệnh danh và thể bệnh phù hợp nhất là:",
     "correct": "Tiện bí thể Âm hư",
     "options": [
-      "Tiện bí thể Dương hư",
+      "Tiện bí thể Huyết hư",
       "Tiện bí thể Âm hư",
-      "Tiện bí thể Khí hư",
-      "Tiện bí thể Huyết hư"
+      "Tiện bí thể Dương hư",
+      "Tiện bí thể Khí hư"
     ]
   },
   {
@@ -818,10 +818,10 @@
     "question": "14. Bệnh nhân nữ, 63 tuổi, có những chứng trạng: tuy muốn đại tiện, nhưng lúc đi phải rặn, không có lực, khó bài xuất. Sau đại tiện mệt mỏi, ra mồ hôi, đoản khí, mặt trắng bệch, tinh thần mệt mỏi, tứ chi mỏi mệt, ngại nói. Lưỡi bệu nhợt, hoặc lưỡi có vết hằn răng, rêu lưỡi trắng mỏng, Mạch tế nhược. Chẩn đoán bệnh danh và thể bệnh phù hợp nhất là:",
     "correct": "Tiện bí thể Khí hư",
     "options": [
+      "Tiện bí thể Dương hư",
       "Tiện bí thể Khí hư",
       "Tiện bí thể Huyết hư",
-      "Tiện bí thể Âm hư",
-      "Tiện bí thể Dương hư"
+      "Tiện bí thể Âm hư"
     ]
   },
   {
@@ -829,9 +829,9 @@
     "question": "15. Bệnh nhân nam, 67 tuổi, thường hay đại tiện phân nát, diễn biến từng đợt. Đợt này bệnh nhân sáng ngủ dậy thường đau bụng quặn và đại tiện phân lỏng, đại tiện xong đỡ đau, ngày đi ngoài 2-3 lần kèm theo đau âm ỉ vùng hạ vị, người mệt mỏi, chân lạnh, đôi lúc ù tai, lưỡi nhợt, rêu lưỡi trắng mỏng, mạch trầm nhược. Chẩn đoán tạng phủ:",
     "correct": "Tỳ, thận",
     "options": [
-      "Tỳ, vị",
       "Can",
       "Can, tỳ",
+      "Tỳ, vị",
       "Tỳ, thận"
     ]
   },
@@ -840,10 +840,10 @@
     "question": "16. Bệnh nhân nam, 67 tuổi, thường hay đại tiện phân nát, diễn biến từng đợt. Đợt này bệnh nhân sáng ngủ dậy thường đau bụng quặn và đại tiện phân lỏng, đại tiện xong đỡ đau, ngày đi ngoài 2-3 lần kèm theo đau âm ỉ vùng hạ vị, người mệt mỏi, chân lạnh, đôi lúc ù tai, lưỡi nhợt, rêu lưỡi trắng mỏng, mạch trầm nhược. Chẩn đoán bát cương:",
     "correct": "Lý, hư, hàn",
     "options": [
-      "Lý, hư thực thác tạp, hàn",
-      "Lý, thực, hàn",
+      "Lý, hư, hàn",
       "Lý, hư, hàn nhiệt thác tạp",
-      "Lý, hư, hàn"
+      "Lý, hư thực thác tạp, hàn",
+      "Lý, thực, hàn"
     ]
   },
   {
@@ -851,10 +851,10 @@
     "question": "17. Bệnh nhân nữ, 45 tuổi, thường hay đại tiện phân nát có lúc táo, diễn biến từng đợt. Đợt này bệnh nhân xuất hiện đại tiện phân lỏng, đau vùng mạn sườn trái, đầy bụng chướng hơi nhiều, ngực đầy tức, chất lưỡi đỏ, rêu lưỡi vàng, mạch huyền. Bệnh nhân đợt này hay buồn bực, lo lắng, ngủ ít do có việc căng thẳng trong gia đình. Chẩn đoán tạng phủ của bệnh nhân là?",
     "correct": "Can, tỳ",
     "options": [
-      "Tỳ, thận",
       "Tỳ, vị",
-      "Can, tỳ",
-      "Can, đởm"
+      "Can, đởm",
+      "Tỳ, thận",
+      "Can, tỳ"
     ]
   },
   {
@@ -862,9 +862,9 @@
     "question": "18. Bệnh nhân nữ, 45 tuổi, thường hay đại tiện phân nát có lúc táo, diễn biến từng đợt. Đợt này bệnh nhân xuất hiện đại tiện phân lỏng, đau vùng mạn sườn trái, đầy bụng chướng hơi nhiều, ngực đầy tức, chất lưỡi đỏ, rêu lưỡi vàng, mạch huyền. Bệnh nhân đợt này hay buồn bực, lo lắng, ngủ ít do có việc căng thẳng trong gia đình. Chẩn đoán bát cương của bệnh nhân là?",
     "correct": "Lý, hư thực thác tạp, thiên nhiệt",
     "options": [
+      "Lý, hư, nhiệt",
       "Lý, hư thực thác tạp, thiên nhiệt",
       "Lý, thực, nhiệt",
-      "Lý, hư, nhiệt",
       "Lý, hư, hàn nhiệt thác tạp"
     ]
   },
@@ -874,8 +874,8 @@
     "correct": "Can, vị",
     "options": [
       "Can, vị",
-      "Can, thận",
       "Tỳ, tâm",
+      "Can, thận",
       "Tỳ, thận"
     ]
   },
@@ -884,10 +884,10 @@
     "question": "20. Bệnh nhân nữ, 40 tuổi, thường xuyên làm việc căng thẳng, hay lo lắng suy nghĩ nhiều. Khoảng 1 tuần nay bệnh nhân xuất hiện đau và nóng rát thượng vị, miệng khô đắng, hay ợ chua, đại tiện táo, tiểu tiện đỏ, rêu lưỡi vàng, mạch huyền. Chẩn đoán nguyên nhân của bệnh nhân là:",
     "correct": "Nội nhân",
     "options": [
-      "Nội nhân",
-      "Ngoại nhân",
       "Ngoại nhân và bất nội ngoại nhân",
-      "Bất nội ngoại nhân"
+      "Bất nội ngoại nhân",
+      "Nội nhân",
+      "Ngoại nhân"
     ]
   },
   {
@@ -895,9 +895,9 @@
     "question": "21. Bệnh nhân nữ, 40 tuổi, thường xuyên làm việc căng thẳng, hay lo lắng suy nghĩ nhiều. Khoảng 1 tuần nay bệnh nhân xuất hiện đau và nóng rát thượng vị, miệng khô đắng, hay ợ chua, đại tiện táo, tiểu tiện đỏ, rêu lưỡi vàng, mạch huyền. Chẩn đoán bát cương của bệnh nhân:",
     "correct": "Lý thực nhiệt",
     "options": [
-      "Biểu lý tương kiêm, hư nhiệt",
-      "Lý thực nhiệt",
       "Lý hư nhiệt",
+      "Lý thực nhiệt",
+      "Biểu lý tương kiêm, hư nhiệt",
       "Lý hư trung hiệp thực, hàn nhiệt thác tạp"
     ]
   },
@@ -906,10 +906,10 @@
     "question": "22. Bệnh nhân nữ, 40 tuổi, thường xuyên ăn uống không điều độ, hay nhịn ăn sáng, ăn nhiều đồ ăn lạnh. Đợt này bệnh nhân xuất hiện đau thượng vị âm ỉ, đầy bụng, buồn nôn, mệt mỏi, người lạnh, chân tay lạnh, phân nát, mạch hư tế. Chẩn đoán tạng phủ của bệnh nhân là:",
     "correct": "Tỳ, thận",
     "options": [
-      "Can, vị",
-      "Tỳ, vị",
       "Tỳ, thận",
-      "Can, tỳ"
+      "Tỳ, vị",
+      "Can, tỳ",
+      "Can, vị"
     ]
   },
   {
@@ -917,9 +917,9 @@
     "question": "23. Bệnh nhân nữ, 40 tuổi, thường xuyên ăn uống không điều độ, hay nhịn ăn sáng, ăn nhiều đồ ăn lạnh. Đợt này bệnh nhân xuất hiện đau thượng vị âm ỉ, đầy bụng, buồn nôn, mệt mỏi, người lạnh, chân tay lạnh, phân nát, mạch hư tế. Chẩn đoán nguyên nhân của bệnh nhân là:",
     "correct": "Bất nội ngoại nhân",
     "options": [
-      "Ngoại nhân",
       "Bất nội ngoại nhân",
       "Nội nhân",
+      "Ngoại nhân",
       "Ngoại nhân và bất nội ngoại nhân"
     ]
   },
@@ -929,8 +929,8 @@
     "correct": "Lý hư hàn",
     "options": [
       "Lý hư hàn",
-      "Lý hư trung hiệp thực hàn",
       "Lý thực hàn",
+      "Lý hư trung hiệp thực hàn",
       "Lý hư, hàn nhiệt thác tạp"
     ]
   },
@@ -950,8 +950,8 @@
     "question": "26. Một bệnh nhân nam, 35 tuổi, thường xuyên phải làm việc căng thẳng, suy nghĩ thức khuya nhiều. Một tháng này thấy xuất hiện đau thường vị từng cơn, đôi lúc lan sang mạn sườn, bụng đầy chướng khó tiêu, hay ợ hơi, chất lưỡi đỏ, rêu lưỡi vàng, mạch huyết. Chẩn đoán nguyên nhân của bệnh nhân trên là?",
     "correct": "Nội nhân",
     "options": [
-      "Nội nhân",
       "Ngoại nhân và bất nội ngoại nhân",
+      "Nội nhân",
       "Ngoại nhân",
       "Bất nội ngoại nhân"
     ]
@@ -961,10 +961,10 @@
     "question": "26. Một bệnh nhân nam, 35 tuổi, thường xuyên phải làm việc căng thẳng, suy nghĩ thức khuya nhiều. Một tháng này thấy xuất hiện đau thường vị từng cơn, đôi lúc lan sang mạn sườn, bụng đầy chướng khó tiêu, hay ợ hơi, chất lưỡi đỏ, rêu lưỡi vàng, mạch huyết. Chẩn đoán nguyên nhân của bệnh nhân trên là?",
     "correct": "Nội nhân",
     "options": [
-      "Ngoại nhân và bất nội ngoại nhân",
-      "Nội nhân",
       "Ngoại nhân",
-      "Bất nội ngoại nhân"
+      "Bất nội ngoại nhân",
+      "Ngoại nhân và bất nội ngoại nhân",
+      "Nội nhân"
     ]
   },
   {
@@ -972,10 +972,10 @@
     "question": "27. Một bệnh nhân nam, 35 tuổi, thường xuyên phải làm việc căng thẳng, suy nghĩ thức khuya nhiều. Một tháng này thấy xuất hiện đau thường vị từng cơn, đôi lúc lan sang mạn sườn, bụng đầy chướng khó tiêu, hay ợ hơi, chất lưỡi đỏ, rêu lưỡi vàng, mạch huyền. Chẩn đoán bát cương của bệnh nhân trên là?",
     "correct": "Lý, thực, nhiệt",
     "options": [
-      "Lý, hư trung hiệp thực, hàn nhiệt thác tạp",
-      "Lý, thực, nhiệt",
+      "Lý, hư, nhiệt",
       "Lý, hư trung hiệp thực, nhiệt",
-      "Lý, hư, nhiệt"
+      "Lý, hư trung hiệp thực, hàn nhiệt thác tạp",
+      "Lý, thực, nhiệt"
     ]
   },
   {
@@ -983,9 +983,9 @@
     "question": "28. Bệnh nhân nam 28 tuổi. Tiền sử: khỏe mạnh. Cách 1 tuần vào viện, bệnh nhân cảm mạo mới khỏi, sau xuất hiện đại tiện khô kết, khoảng 3 ngày đi đại tiện một lần, bụng đau chướng, miệng khô, miệng hôi. Mặt đỏ người nóng, tâm phiền bất ninh, ra nhiều mồ hôi. Chất lưỡi đỏ khô, rêu lưỡi vàng khô, mạch hoạt sác.Bệnh nhân trên có thể bị hội chứng bệnh là do:",
     "correct": "Trường vị tích nhiệt",
     "options": [
-      "Khí cơ uất trệ",
-      "Âm hư huyết thiếu",
       "Khí hư dương suy",
+      "Âm hư huyết thiếu",
+      "Khí cơ uất trệ",
       "Trường vị tích nhiệt"
     ]
   },
@@ -995,8 +995,8 @@
     "correct": "Lý hư nhiệt",
     "options": [
       "Lý thực nhiệt",
-      "Lý hư nhiệt",
       "Biểu lý tương kiêm hư nhiệt",
+      "Lý hư nhiệt",
       "Biểu lý tương kiêm thực nhiệt"
     ]
   },
@@ -1006,9 +1006,9 @@
     "correct": "Can Thận Hư kèm Phong Hàn Thấp Tý",
     "options": [
       "Can Thận Hư kèm Phong Hàn Thấp Tý",
-      "L ý, Hư, Hàn; Thể bệnh: Khí Huyết Bất Túc",
+      "Lý, Thực, Hàn; Thể bệnh: Phong Hàn Thấp Tý",
       "Biểu, Hư, Nhiệt; Thể bệnh: Can Thận Âm Hư",
-      "Lý, Thực, Hàn; Thể bệnh: Phong Hàn Thấp Tý"
+      "L ý, Hư, Hàn; Thể bệnh: Khí Huyết Bất Túc"
     ]
   },
   {
@@ -1016,10 +1016,10 @@
     "question": "2. Bệnh nhân nam 80 tuổi, nghề nghiệp giáo viên cấp 3 về hưu, bị bệnh hơn 15 năm nay và đặc điểm hay phát bệnh vào mùa đông. Đợt 1/2016 lại vào viện điều trị với các triệu chứng khó thở đột ngột, thở có tiếng rít, khó thở thì thở ra và đã được điều trị ổn định ra viện với chẩn đoán Tây y là Hen phế quản. Hiện tại bệnh nhân hết triệu chứng thở rít, đỡ khó thở nhiều, tuy nhiên còn có biểu hiện triệu chứng sợ lạnh, sắc mặt trắng bệch, hồi hộp, ù tai, hơi thở ngắn gấp, càng lao động càng tăng, khạc đờm có bọt, lưng gối mỏi yếu, nước tiểu trong dài, tiểu đêm nhiều lần, lưỡi đạm, rêu lưỡi nhuận, mạch trầm tế vô lực. Bệnh nhân được chẩn đoán bệnh danh và thể bệnh theo YHCT là:",
     "correct": "Háo suyễn thể Thận dương hư",
     "options": [
-      "Háo suyễn thể Thận âm hư",
-      "Háo suyễn thể Phế âm hư",
+      "Háo suyễn thể Thận dương hư",
       "Háo suyễn thể Tỳ hư",
-      "Háo suyễn thể Thận dương hư"
+      "Háo suyễn thể Thận âm hư",
+      "Háo suyễn thể Phế âm hư"
     ]
   },
   {
@@ -1027,10 +1027,10 @@
     "question": "3. Bệnh nhân có tiền sử Viêm gan B 5 năm. Cách vào viện một tuần, bệnh nhân có biểu hiện mệt mỏi, vàng mắt nhiều, da vàng sẫm, nước tiểu vàng sẫm, miệng đắng, chán ăn, sợ mỡ, buồn nôn, đầy bụng, chậm tiêu. Đi ngoài phân sống ngày hai lần, kèm ngủ ít trằn trọc khó ngủ, chất lưỡi đỏ, rêu lưỡi vàng nhớt, mạch huyền nhuạt sác. Chẩn đoán thể bệnh là gì?",
     "correct": "Viêm gan mạn tính thể thấp nhiệt uất kết",
     "options": [
-      "Viêm gan mạn tính thể can uất tỳ hư",
-      "Viêm gan mạn tính thể khí trệ huyết ứ",
       "Viêm gan mạn tính thể can uất khí trệ",
-      "Viêm gan mạn tính thể thấp nhiệt uất kết"
+      "Viêm gan mạn tính thể thấp nhiệt uất kết",
+      "Viêm gan mạn tính thể can uất tỳ hư",
+      "Viêm gan mạn tính thể khí trệ huyết ứ"
     ]
   },
   {
@@ -1038,10 +1038,10 @@
     "question": "4. Bệnh nhân nữ, 55 tuổi, có tiền sử nhiễm virus viêm gan B, không được khám và điều trị thường xuyên. Đợt này bệnh nhân xuất hiện đau tức nhiều vùng mạn sườn phải, ngực đầy tức, chướng bụng nhiều sau ăn, ăn kém, mệt mỏi, đại tiện nát phân, chất lưỡi nhạt bệu, mạch huyền. Chẩn đoán thể bệnh là gì?",
     "correct": "Viêm gan mạn tính thể can uất tỳ hư",
     "options": [
-      "Viêm gan mạn tính thể can uất tỳ hư",
       "Viêm gan mạn tính thể can nhiệt tỳ thấp",
+      "Viêm gan mạn tính thể can uất khí trệ",
       "Viêm gan mạn tính thể khí trệ huyết ứ",
-      "Viêm gan mạn tính thể can uất khí trệ"
+      "Viêm gan mạn tính thể can uất tỳ hư"
     ]
   },
   {
@@ -1049,10 +1049,10 @@
     "question": "5. Bệnh nhân nam, 50 tuổi, có tiền sử viêm gan B mạn tính, không thăm khám và điều trị thường xuyên. Đợt này bệnh nhân xuất hiện người mệt, da vàng sạm, miệng khô, họng khô, hay chảy máu chân răng, người nóng, chân phù, cổ trướng ít, đại tiện táo, tiểu tiện đỏ, chất lưỡi đỏ ít rêu, mạch huyền tế sác. Chẩn đoán bát cương là gì?",
     "correct": "Lý hư thực thác tạp nhiệt",
     "options": [
+      "Lý thực, hàn nhiệt thác tạp",
       "Lý hư thực thác tạp nhiệt",
-      "Lý hư nhiệt",
       "Lý thực nhiệt",
-      "Lý thực, hàn nhiệt thác tạp"
+      "Lý hư nhiệt"
     ]
   },
   {
@@ -1060,8 +1060,8 @@
     "question": "6. Bệnh nhân nam 45 tuổi, có tiền sử uống rượu nhiều, đã xét nghiệm nhiều lần có men gan cao, không điều trị tích cực. Đợt này bệnh nhân xuất hiện đau tức hạ sườn phải, chướng bụng nhiều, da sạm, môi tím, người gầy, gan to, lách to, lưỡi có điểm ứ huyết, mạch huyền tế sác. Chẩn đoán thể bệnh là gì?",
     "correct": "Xơ gan thể khí trệ huyết ứ",
     "options": [
-      "Xơ gan thể Tỳ thận dương hư",
       "Xơ gan thể Can uất tỳ hư",
+      "Xơ gan thể Tỳ thận dương hư",
       "Xơ gan thể khí trệ huyết ứ",
       "Xơ gan thể Âm hư thấp nhiệt"
     ]
@@ -1071,10 +1071,10 @@
     "question": "7. Bệnh nhân có tiền sử viêm gan B 5 năm. Cách vào viện một tuần, bệnh nhân xuất hiện người mệt mỏi nhiều, da vàng sẫm, củng mạc mắt vàng, nước tiểu vàng sẫm, miệng đắng, chán ăn, sợ mỡ, buồn nôn, đầy bụng, chậm tiêu, đi ngoài phân sống ngày hai lần, kèm ngủ ít trằn trọc khó ngủ, chất lưỡi đỏ, rêu lưỡi nhớt, mạch huyền hoạt sác. Chẩn đoán bát cương là gì?",
     "correct": "Lý, hư thực thác tạp, nhiệt",
     "options": [
+      "Lý thực nhiệt",
       "Lý hư hàn",
       "Lý hư nhiệt",
-      "Lý, hư thực thác tạp, nhiệt",
-      "Lý thực nhiệt"
+      "Lý, hư thực thác tạp, nhiệt"
     ]
   },
   {
@@ -1082,10 +1082,10 @@
     "question": "8. Bệnh nhân nữ, 55 tuổi, có tiền sử nhiễm virus viêm gan B, không được khám và điều trị thường xuyên. Đợt này bệnh nhân xuất hiện đau tức nhiều vùng mạn sườn phải, sắc mặt tối xạm, môi thâm, ăn kém, đại tiện khi táo khi nát, lách to, có tuần hoàn bàng hệ ở bụng, lưỡi đỏ có điểm ứ huyết, mạch huyền sáp. Chẩn đoán thể bệnh là gì?",
     "correct": "Viêm gan mạn tính thể khí trệ huyết ứ",
     "options": [
-      "Viêm gan mạn tính thể khí trệ huyết ứ",
+      "Viêm gan mạn tính thể Can tỳ bất hòa",
       "Viêm gan mạn tính thể Can thận âm hư",
-      "Viêm gan mạn tính thể Can uất tỳ hư",
-      "Viêm gan mạn tính thể Can tỳ bất hòa"
+      "Viêm gan mạn tính thể khí trệ huyết ứ",
+      "Viêm gan mạn tính thể Can uất tỳ hư"
     ]
   },
   {
@@ -1104,9 +1104,9 @@
     "question": "10. Bệnh nhân nam 50 tuổi, có tiền sử viêm gan B mạn tính, không thăm khám và điều trị tích cực. Đợt này xuất hiện bụng cổ trướng, phù chân, tiểu ít kèm theo người mệt mỏi, sắc mặt trắng nhợt, ăn kém; đại tiện ngũ canh tả; lưng lạnh, sợ lạnh, chất lưỡi nhạt bệu, rêu lưỡi trắng mỏng, mạch trầm tế. Chẩn đoán tạng phủ là gì?",
     "correct": "Tỳ thận dương hư thiên về thận dương",
     "options": [
-      "Tỳ dương hư",
       "Tỳ thận dương hư thiên về thận dương",
       "Thận âm hư",
+      "Tỳ dương hư",
       "Tỳ thận dương hư thiên về tỳ dương"
     ]
   },
@@ -1115,10 +1115,10 @@
     "question": "11. Bệnh nhân nam 50 tuổi, có tiền sử viêm gan B mạn tính, không thăm khám và điều trị tích cực. Đợt này xuất hiện bụng chướng đầy khó chịu, kèm theo người mệt mỏi, vàng da sắc tối, ngực tức không muốn ăn, ăn kém, đại tiện lỏng, chân tay lạnh, sợ lạnh, chất lưỡi nhạt bệu, rêu lưỡi trắng mỏng, mạch trầm huyền vô lực. Chẩn đoán thể bệnh là gì?",
     "correct": "Xơ gan thể Tỳ thận dương hư thiên về Tỳ dương",
     "options": [
-      "Xơ gan thể Tỳ thận dương hư thiên về Tỳ dương",
       "Xơ gan thể Tỳ thận dương hư",
-      "Xơ gan thể Tỳ thận dương hư thiên về Thận dương",
-      "Xơ gan thể Can uất tỳ hư"
+      "Xơ gan thể Tỳ thận dương hư thiên về Tỳ dương",
+      "Xơ gan thể Can uất tỳ hư",
+      "Xơ gan thể Tỳ thận dương hư thiên về Thận dương"
     ]
   },
   {
@@ -1126,10 +1126,10 @@
     "question": "12. Bệnh nhân nam 72 tuổi, thoái hóa cột sống thắt lưng. Có các triệu chứng: đau âm ỉ, ù tai, mỏi gối, đau tăng khi lạnh, giảm khi chườm ấm. Trong các nguyên nhân YHCT dưới đây, nguyên nhân bệnh sinh quan trọng nhất gây bệnh cảnh này là:",
     "correct": "Nội thương do can thận hư",
     "options": [
-      "Khí huyết bất túc do ăn uống kém",
-      "Nội thương do can thận hư",
+      "Ngoại tà phong hàn thấp",
       "Sang chấn",
-      "Ngoại tà phong hàn thấp"
+      "Nội thương do can thận hư",
+      "Khí huyết bất túc do ăn uống kém"
     ]
   },
   {
@@ -1137,10 +1137,10 @@
     "question": "13. Một bệnh nhân 75 tuổi bị thoái hóa khớp gối. Bệnh nhân có nền tảng Can Thận hư (đau lưng, mỏi gối). Gần đây bệnh nhân bị cảm cúm (sợ lạnh, nghẹt mũi, mạch Phù Khẩn) và bệnh khớp đau tăng cấp tính.\r\nTrong chẩn đoán Bát cương, cương lĩnh nào sau đây mô tả đầy đủ nhất tình trạng bệnh lý hiện tại của bệnh nhân?",
     "correct": "Biểu lý tương kiêm - hư trung hiệp thực - hàn",
     "options": [
+      "Biểu lý tương kiêm - hư trung hiệp thực - hàn",
       "Biểu lý tương kiêm - hư trung hiệp thực - hàn nhiệt thác tạp",
       "Biểu lý tương kiêm - hư - hàn",
-      "Biểu lý tương kiêm - hư - hàn nhiệt thác tạp",
-      "Biểu lý tương kiêm - hư trung hiệp thực - hàn"
+      "Biểu lý tương kiêm - hư - hàn nhiệt thác tạp"
     ]
   },
   {
@@ -1149,9 +1149,9 @@
     "correct": "Huyết ứ",
     "options": [
       "Can thận hư",
+      "Phong hàn thấp",
       "Thấp nhiệt",
-      "Huyết ứ",
-      "Phong hàn thấp"
+      "Huyết ứ"
     ]
   },
   {
@@ -1159,9 +1159,9 @@
     "question": "2. Trong thành phần bài \"Ô đầu thang\" để điều trị chứng lịch tiết (lao châm) KHÔNG có vị thuốc nào sau đây:",
     "correct": "Ý đĩ",
     "options": [
-      "Ma hoàng",
-      "Hoàng kỳ",
       "Bạch linh",
+      "Hoàng kỳ",
+      "Ma hoàng",
       "Ý đĩ"
     ]
   },
@@ -1170,10 +1170,10 @@
     "question": "3. Bài \"Thân thống trục ứ thang\" KHÔNG có vị nào sau đây:",
     "correct": "Đan sâm",
     "options": [
-      "Đào nhân",
+      "Đan sâm",
       "Hồng hoa",
       "Hương phụ",
-      "Đan sâm"
+      "Đào nhân"
     ]
   },
   {
@@ -1181,10 +1181,10 @@
     "question": "4. Trong bài thuốc \"Quyên tý thang\" có chứa vị thuốc nào sau đây:",
     "correct": "Khương hoàng, khương hoạt",
     "options": [
-      "Bạch thược, tang chi",
+      "Ngưu tất, bạch thược",
       "Quế chi, tang ký sinh",
       "Khương hoàng, khương hoạt",
-      "Ngưu tất, bạch thược"
+      "Bạch thược, tang chi"
     ]
   },
   {
@@ -1192,10 +1192,10 @@
     "question": "5. Trong bài \"Cát căn thang\", Cát căn là quân dược có tác dụng?",
     "correct": "Thông kinh, giải cơ, thư mạch",
     "options": [
-      "Thông kinh, giải cơ, thư mạch",
       "Phát tán phong thấp",
-      "Phát tán phong nhiệt",
-      "Phát tán phong hàn"
+      "Phát tán phong hàn",
+      "Thông kinh, giải cơ, thư mạch",
+      "Phát tán phong nhiệt"
     ]
   },
   {
@@ -1204,9 +1204,9 @@
     "correct": "HbA1c ≥ 6.5%, xét nghiệm này phải được thực hiện ở phòng thí nghiệm được chuẩn hóa theo tiêu chuẩn quốc tế",
     "options": [
       "HbA1c = 6.5%, xét nghiệm này phải được thực hiện ở phòng thí nghiệm được chuẩn hóa theo tiêu chuẩn quốc tế",
-      "HbA1c ≥ 6.5%, xét nghiệm này phải được thực hiện ở phòng thí nghiệm được chuẩn hóa theo tiêu chuẩn quốc tế",
       "HbA1c ≥ 6.4%, xét nghiệm này phải được thực hiện ở phòng thí nghiệm được chuẩn hóa theo tiêu chuẩn quốc tế",
-      "HbA1c < 6.5%, xét nghiệm này phải được thực hiện ở phòng thí nghiệm được chuẩn hóa theo tiêu chuẩn quốc tế"
+      "HbA1c < 6.5%, xét nghiệm này phải được thực hiện ở phòng thí nghiệm được chuẩn hóa theo tiêu chuẩn quốc tế",
+      "HbA1c ≥ 6.5%, xét nghiệm này phải được thực hiện ở phòng thí nghiệm được chuẩn hóa theo tiêu chuẩn quốc tế"
     ]
   },
   {
@@ -1214,10 +1214,10 @@
     "question": "8. Chẩn đoán đái tháo đường theo (hiệp hội Đái tháo đường Mỹ - ADA 2015) dựa vào 1 trong 4 tiêu chuẩn, trong đó có tiêu chuẩn sau:",
     "correct": "Đường huyết tương sau 2 giờ làm nghiệm pháp dung nạp glucose ≥ 11.1 mmol/l",
     "options": [
-      "Đường huyết tương sau 2 giờ làm nghiệm pháp dung nạp glucose ≥ 11.2 mmol/l",
-      "Đường huyết tương sau 2 giờ làm nghiệm pháp dung nạp glucose ≥ 11.0 mmol/l",
       "Đường huyết tương sau 2 giờ làm nghiệm pháp dung nạp glucose ≥ 11.1 mmol/l",
-      "Đường huyết tương sau 2 giờ làm nghiệm pháp dung nạp glucose ≥ 11.3 mmol/l"
+      "Đường huyết tương sau 2 giờ làm nghiệm pháp dung nạp glucose ≥ 11.2 mmol/l",
+      "Đường huyết tương sau 2 giờ làm nghiệm pháp dung nạp glucose ≥ 11.3 mmol/l",
+      "Đường huyết tương sau 2 giờ làm nghiệm pháp dung nạp glucose ≥ 11.0 mmol/l"
     ]
   },
   {
@@ -1226,8 +1226,8 @@
     "correct": "Đường huyết tương lúc đói ≥ 7.0 mmol/l",
     "options": [
       "Đường huyết tương lúc đói ≥ 7.1 mmol/l",
-      "Đường huyết tương lúc đói ≥ 7.0 mmol/l",
       "Đường huyết tương lúc đói ≥ 6.5 mmol/l",
+      "Đường huyết tương lúc đói ≥ 7.0 mmol/l",
       "Đường huyết tương lúc đói ≥ 6.1 mmol/l"
     ]
   },
@@ -1238,8 +1238,8 @@
     "options": [
       "Bạch linh, bạch truật, bạch thược",
       "Đương quy, đẳng sâm, sài hồ",
-      "Sinh địa, bạch truật, bạch thược",
-      "Hoài sơn, bạch truật, bạch thược"
+      "Hoài sơn, bạch truật, bạch thược",
+      "Sinh địa, bạch truật, bạch thược"
     ]
   },
   {
@@ -1247,9 +1247,9 @@
     "question": "11. Chọn 1 đáp án đúng: Trong thành phần bài thuốc Đào hồng tứ vật thang có những vị thuốc nào dưới đây?",
     "correct": "Đào nhân, hồng hoa, xích thược",
     "options": [
-      "Sinh địa, đào nhân, cam thảo",
       "Xuyên khung, đảng sâm, đào nhân",
       "Đào nhân, hồng hoa, xích thược",
+      "Sinh địa, đào nhân, cam thảo",
       "Hồng hoa, sinh địa, cam thảo"
     ]
   },
@@ -1259,9 +1259,9 @@
     "correct": "Tư âm tiềm dương, khử phong thông lạc",
     "options": [
       "Thông phủ tiết nhiệt, tức phong hóa đàm",
+      "Hóa đàm tức phong, tuyên uất khai khiếu",
       "Tức phong thanh hỏa, khoát đàm khai khiếu",
-      "Tư âm tiềm dương, khử phong thông lạc",
-      "Hóa đàm tức phong, tuyên uất khai khiếu"
+      "Tư âm tiềm dương, khử phong thông lạc"
     ]
   },
   {
@@ -1269,8 +1269,8 @@
     "question": "17. Pháp điều trị Tai biến mạch máu não thể trúng phong kinh lạc - phong đàm là:",
     "correct": "Trừ đờm hóa, thông lạc là chính, tức phong, kiện tỳ trừ thấp",
     "options": [
-      "Hồi âm, hồi dương, cứu thoát",
       "Tức phong, thanh hỏa, tiêu đờm, khai khiếu",
+      "Hồi âm, hồi dương, cứu thoát",
       "Trừ đờm hóa, thông lạc là chính, tức phong, kiện tỳ trừ thấp",
       "Tư âm tiềm dương, khử phong thông lạc"
     ]
@@ -1280,9 +1280,9 @@
     "question": "18. Pháp điều trị của thể lâm sàng do phong hàn đầu thống là?",
     "correct": "Sơ tán phong hàn",
     "options": [
-      "Sơ phong đại lý",
-      "Khu phong thanh nhiệt",
       "Tán hàn trừ thấp",
+      "Khu phong thanh nhiệt",
+      "Sơ phong đại lý",
       "Sơ tán phong hàn"
     ]
   },
@@ -1291,9 +1291,9 @@
     "question": "19. Pháp điều trị thể lâm sàng do phong nhiệt đầu thống là?",
     "correct": "Trừ phong thanh nhiệt",
     "options": [
-      "Bình can tức phong",
-      "Sơ can tiết nhiệt",
       "Thanh tức can phong",
+      "Sơ can tiết nhiệt",
+      "Bình can tức phong",
       "Trừ phong thanh nhiệt"
     ]
   },
@@ -1302,10 +1302,10 @@
     "question": "20. Pháp điều trị của thể lâm sàng do phong thấp đầu thống là?",
     "correct": "Trừ phong thông khiếu",
     "options": [
-      "Trừ phong thông khiếu",
       "Trừ thấp hóa đờm, kiện vận tỳ vị",
+      "Khu phong tán hàn trừ thấp",
       "Khu phong thanh nhiệt trừ thấp",
-      "Khu phong tán hàn trừ thấp"
+      "Trừ phong thông khiếu"
     ]
   },
   {
@@ -1315,8 +1315,8 @@
     "options": [
       "Bình can tiềm dương dưỡng âm",
       "Nhu can dưỡng huyết an thần",
-      "Thanh can tức phong an thần",
-      "Sơ can kiện tỳ hoạt huyết"
+      "Sơ can kiện tỳ hoạt huyết",
+      "Thanh can tức phong an thần"
     ]
   },
   {
@@ -1324,9 +1324,9 @@
     "question": "26. Bài thuốc Quyên tý thang gia giảm được dùng để điều trị lao châm thể:",
     "correct": "Can thận hư kết hợp phong hàn thấp",
     "options": [
-      "Hàn thấp",
       "Phong hàn",
       "Can thận hư kết hợp phong hàn thấp",
+      "Hàn thấp",
       "Thấp nhiệt"
     ]
   },
@@ -1337,8 +1337,8 @@
     "options": [
       "Sơ can kiện tỳ",
       "Tư bổ can thận",
-      "Bổ khí dưỡng huyết",
-      "Khử đàm trừ thấp"
+      "Khử đàm trừ thấp",
+      "Bổ khí dưỡng huyết"
     ]
   },
   {
@@ -1348,8 +1348,8 @@
     "options": [
       "Bổ khí dưỡng huyết",
       "Hoạt huyết hóa ứ",
-      "Sơ khổ kiện tỳ",
-      "Tư bổ can thận"
+      "Tư bổ can thận",
+      "Sơ khổ kiện tỳ"
     ]
   },
   {
@@ -1357,10 +1357,10 @@
     "question": "41. Theo Y học cổ truyền, rối loạn lipid máu thể can thận âm hư dùng pháp điều trị là:",
     "correct": "Tư dưỡng can thận",
     "options": [
-      "Tư dưỡng can thận",
       "Ôn bổ can thận",
-      "Thanh nhiệt hóa đàm thông phủ",
-      "Kiện tỳ hóa đàm trừ thấp"
+      "Kiện tỳ hóa đàm trừ thấp",
+      "Tư dưỡng can thận",
+      "Thanh nhiệt hóa đàm thông phủ"
     ]
   },
   {
@@ -1369,8 +1369,8 @@
     "correct": "Cam thảo",
     "options": [
       "Hoàng kỳ",
-      "Bạch truật",
       "Cam thảo",
+      "Bạch truật",
       "Đảng sâm"
     ]
   },
@@ -1380,8 +1380,8 @@
     "correct": "Tư âm thanh nhiệt, hành khí hoạt huyết, thông lạc",
     "options": [
       "Tư âm thanh nhiệt trừ thấp",
-      "Tư âm thanh nhiệt, kiện tỳ",
       "Tư âm thanh nhiệt, thông lạc",
+      "Tư âm thanh nhiệt, kiện tỳ",
       "Tư âm thanh nhiệt, hành khí hoạt huyết, thông lạc"
     ]
   },
@@ -1390,10 +1390,10 @@
     "question": "55. Bài thuốc cổ phương tiêu biểu để điều trị chứng Tiêu khát thể Hạ tiêu là:",
     "correct": "Lục vị địa hoàng hoàn gia giảm",
     "options": [
-      "Lục vị địa hoàng hoàn gia giảm",
+      "Tứ quân tử thang gia giảm",
       "Thất vị bạch truật tán gia giảm",
-      "Bổ trung ích khí thang gia giảm",
-      "Tứ quân tử thang gia giảm"
+      "Lục vị địa hoàng hoàn gia giảm",
+      "Bổ trung ích khí thang gia giảm"
     ]
   },
   {
@@ -1402,9 +1402,9 @@
     "correct": "Nhân trung, Thừa tương, Liêm tuyền, Thập nhị tỉnh",
     "options": [
       "Quan nguyên, Khí hải, Bách hội, Nội quan, Hợp cốc, Tam âm giao",
-      "Nhân trung, Thừa tương, Liêm tuyền, Thập nhị tỉnh",
+      "Quan nguyên, Khí hải, Tỳ du, Túc tam lý, Tam âm giao",
       "Tam âm giao, Thái xung, Can du, Nội quan, Thần môn",
-      "Quan nguyên, Khí hải, Tỳ du, Túc tam lý, Tam âm giao"
+      "Nhân trung, Thừa tương, Liêm tuyền, Thập nhị tỉnh"
     ]
   },
   {
@@ -1412,10 +1412,10 @@
     "question": "91. Các huyệt thường dùng điều trị chứng Tọa cốt phong thuộc kinh Túc thiếu dương đởm là:",
     "correct": "Hoàn khiêu, phong thị, dương lăng tuyền, huyền chung, túc lâm khấp",
     "options": [
+      "Hoàn khiêu, phong thị, âm lăng tuyền, huyền chung, túc lâm khấp",
       "Hoàn khiêu, phong thị, thừa sơn, huyền chung, túc lâm khấp",
       "Hoàn khiêu, phong thị, túc tam lý, huyền chung, túc lâm khấp",
-      "Hoàn khiêu, phong thị, dương lăng tuyền, huyền chung, túc lâm khấp",
-      "Hoàn khiêu, phong thị, âm lăng tuyền, huyền chung, túc lâm khấp"
+      "Hoàn khiêu, phong thị, dương lăng tuyền, huyền chung, túc lâm khấp"
     ]
   },
   {
@@ -1424,9 +1424,9 @@
     "correct": "Phong hàn, Phong hàn thấp; Phong nhiệt (có thể kèm thấp), Huyết ứ - Khí trệ",
     "options": [
       "Phong hàn, Phong táo, Huyết ứ - Khí trệ, phong nhiệt",
-      "Phong hàn, phong nhiệt, thử nhiệt, thấp nhiệt",
       "Phong hàn, Phong hàn thấp; Phong nhiệt (có thể kèm thấp), Huyết ứ - Khí trệ",
-      "Phong hàn, Phong hàn thấp; Huyết ứ - Khí trệ, thấp nhiệt"
+      "Phong hàn, Phong hàn thấp; Huyết ứ - Khí trệ, thấp nhiệt",
+      "Phong hàn, phong nhiệt, thử nhiệt, thấp nhiệt"
     ]
   },
   {
@@ -1434,10 +1434,10 @@
     "question": "115. Phương thuốc điều trị chứng Tiện bí thể Dương hư là?",
     "correct": "Tế xuyên tiễn",
     "options": [
+      "Tăng dịch thang",
       "Hoàng kỳ thang",
-      "Lục ma thang",
       "Tế xuyên tiễn",
-      "Tăng dịch thang"
+      "Lục ma thang"
     ]
   },
   {
@@ -1445,10 +1445,10 @@
     "question": "119. Hen phế quản ngoài cơn mà biểu hiện triệu chứng là sắc mặt trắng, tiếng nói nhỏ yếu, ngại nói, hơi thở ngắn gấp, sợ lạnh, tự ra mồ hôi, dễ bị cảm lạnh và hay tái phát cơn hen, ngạt mũi, chảy nước mũi; lưỡi đạm, rêu mỏng trắng, mạch nhu hoãn vô lực thì điều trị theo phương pháp nào phù hợp nhất?",
     "correct": "Cứu",
     "options": [
+      "Châm tả",
       "Châm bổ",
-      "Châm bình bổ bình tả",
       "Cứu",
-      "Châm tả"
+      "Châm bình bổ bình tả"
     ]
   },
   {
@@ -1456,8 +1456,8 @@
     "question": "120. Điều trị tăng huyết áp thể Tâm tỳ hư, bài thuốc phù hợp nhất là:",
     "correct": "Quy tỳ thang",
     "options": [
-      "Bát trân thang",
       "Lục vị quy thược",
+      "Bát trân thang",
       "Thập toàn đại bổ",
       "Quy tỳ thang"
     ]
@@ -1467,10 +1467,461 @@
     "question": "159. Cơ chế tác dụng điều trị đái tháo đường của thuốc Metformin là gì?",
     "correct": "Tăng nhạy cảm với Insulin",
     "options": [
-      "Ức chế phân giải GLP-1",
-      "Kích thích tuyến tụy tăng tiết Insulin",
       "Tăng nhạy cảm với Insulin",
+      "Kích thích tuyến tụy tăng tiết Insulin",
+      "Ức chế phân giải GLP-1",
       "Ức chế tái hấp thu glucose ở ống lượn gần"
+    ]
+  },
+  {
+    "rowIndex": 134,
+    "question": "1. Tăng huyết áp thể âm hư dương xung dùng thiên ma câu đằng ẩm, nhức đầu nhiều gia thêm:",
+    "correct": "Cúc hoa, mạn kinh tử",
+    "options": [
+      "Cúc hoa, mạn kinh tử",
+      "Toan táo nhân, bá tử nhân",
+      "Đào nhân, hồng hoa, đan sâm",
+      "Ba kích, ích trí nhân, đỗ trọng"
+    ]
+  },
+  {
+    "rowIndex": 135,
+    "question": "2. Tăng huyết áp thể âm hư dương xung dùng thiên ma câu đằng ẩm, ngủ ít thêm:",
+    "correct": "Toan táo nhân, bá tử nhân",
+    "options": [
+      "Cúc hoa, mạn kinh tử",
+      "Toan táo nhân, bá tử nhân",
+      "Ba kích, ích trí nhân, đỗ trọng",
+      "Bán hạ, trần bì"
+    ]
+  },
+  {
+    "rowIndex": 136,
+    "question": "3. Tăng huyết áp thể can thận dương hư , gia thêm:",
+    "correct": "Ba kích, ích trí nhân, đỗ trọng",
+    "options": [
+      "Ba kích, ích trí nhân, đỗ trọng",
+      "Phụ tử chế, can khương, bạch thược",
+      "Cúc hoa, mạn kinh tử",
+      "Toan táo nhân, bá tử nhân"
+    ]
+  },
+  {
+    "rowIndex": 137,
+    "question": "4. Thủy thũng (suy tim) thể khí âm hư dùng sinh mạch thang gg, có triệu chứng sung huyết gây khó thở, tức ngực thêm:",
+    "correct": "Đào nhân, hồng hoa, đan sâm",
+    "options": [
+      "Đào nhân, hồng hoa, đan sâm",
+      "Tử uyến, khoản đông hoa",
+      "Đình lịch tử",
+      "Cỏ nhọ nồi sao đen, trắc bách diệp"
+    ]
+  },
+  {
+    "rowIndex": 138,
+    "question": "5. Thủy thũng (suy tim) thể khí âm hư dùng sinh mạch thang gg,ho ra máu thêm:",
+    "correct": "Cỏ nhọ nồi sao đen, trắc bách diệp",
+    "options": [
+      "Đào nhân, hồng hoa, đan sâm",
+      "Cỏ nhọ nồi sao đen, trắc bách diệp",
+      "Cúc hoa, mạn kinh tử, câu đằng",
+      "Tiểu kế, chi tử sao đen"
+    ]
+  },
+  {
+    "rowIndex": 139,
+    "question": "6. Viêm phế quản cấp thể phong hàn dùng hạnh tô tán , lưỡi đờm rêu trắng thêm:",
+    "correct": "Bán hạ, trần bì",
+    "options": [
+      "Cát cánh",
+      "Đẳng sâm, hoàng kỳ",
+      "Đình lịch tử, hắc sửu",
+      "Bán hạ, trần bì"
+    ]
+  },
+  {
+    "rowIndex": 140,
+    "question": "7. Viêm phế quản cấp thể phong hàn dùng hạnh tô tán, hen suyễn bỏ... thêm ma hoàng:",
+    "correct": "Cát cánh",
+    "options": [
+      "Hoàng liên, trúc như, chỉ thực",
+      "Can khương, ngô thù",
+      "Cát cánh",
+      "Bán hạ, trần bì"
+    ]
+  },
+  {
+    "rowIndex": 141,
+    "question": "8. Viêm phế quản cấp thể đàm thấp, hoa mắt chóng mặt hồi hộp thêm:",
+    "correct": "Bán hạ chế, sinh khương",
+    "options": [
+      "Can khương, hoàng liên",
+      "Kim ngân hoa, liên kiều, bồ công anh",
+      "Bán hạ chế, sinh khương",
+      "Bạch mao căn, chi tử sao đen"
+    ]
+  },
+  {
+    "rowIndex": 142,
+    "question": "9. Viêm phế quản cấp thể đàm thấp, chân tay lạnh thêm:",
+    "correct": "Phụ tử chế, can khương, bạch thược",
+    "options": [
+      "Trúc như, bán hạ chế",
+      "Phụ tử chế, can khương, bạch thược",
+      "Hoàng kỳ, đẳng sâm, thăng ma",
+      "Đan bì, chi tử"
+    ]
+  },
+  {
+    "rowIndex": 143,
+    "question": "10. Viêm phế quản cấp thể đàm thấp, đờm nhiều thêm:",
+    "correct": "Bạch giới tử",
+    "options": [
+      "Tô ngạnh, hậu phác, bán hạ chế",
+      "Bạch giới tử",
+      "Thương truật, hậu phác, chỉ xác, trần bì",
+      "Gia thuyền thoái, ngô công, địa long"
+    ]
+  },
+  {
+    "rowIndex": 144,
+    "question": "11. Viêm phế quản cấp thể đàm thấp, tức ngực thêm:",
+    "correct": "Chỉ xác",
+    "options": [
+      "Thiên hoa phấn, sa sâm",
+      "Đại hoàng",
+      "Chỉ xác",
+      "Bối mẫu, trúc lịch"
+    ]
+  },
+  {
+    "rowIndex": 145,
+    "question": "12. Viêm phế quản cấp thể thủy ẩm (hàn ẩm) ho nhiều thêm:",
+    "correct": "Tử uyến, khoản đông hoa",
+    "options": [
+      "Tử uyến, khoản đông hoa",
+      "Tỳ giải, khương hoàng",
+      "Đan bì, xích thược, sinh địa",
+      "Bạch chỉ, kỷ tử, cúc hoa"
+    ]
+  },
+  {
+    "rowIndex": 146,
+    "question": "13. Viêm phế quản cấp thể thủy ẩm (hàn ẩm) có ran ứ đọng nhiều thêm:",
+    "correct": "Đình lịch tử",
+    "options": [
+      "Tang phiêu tiêu, ngũ vị tử",
+      "Uy linh tiêm, hy thiêm",
+      "Đình lịch tử",
+      "Bạch cập, a giao"
+    ]
+  },
+  {
+    "rowIndex": 147,
+    "question": "14. Viêm cầu thận cấp thể phong tà dùng việt tỳ thang gg, k sốt cao thì bỏ:",
+    "correct": "Thạch cao",
+    "options": [
+      "Cúc hoa, mạn kinh tử",
+      "Toan táo nhân, bá tử nhân",
+      "Ba kích, ích trí nhân, đỗ trọng",
+      "Thạch cao"
+    ]
+  },
+  {
+    "rowIndex": 148,
+    "question": "15. Viêm cầu thận cấp thể thấp nhiệt dùng đạo xích tán gg, đái máu thêm:",
+    "correct": "Tiểu kế, chi tử sao đen",
+    "options": [
+      "Đào nhân, hồng hoa, đan sâm",
+      "Cỏ nhọ nồi sao đen, trắc bách diệp",
+      "Tiểu kế, chi tử sao đen",
+      "Bán hạ, trần bì"
+    ]
+  },
+  {
+    "rowIndex": 149,
+    "question": "16. Viêm cầu thận cấp thể thấp nhiệt dùng đạo xích tán gg, huyết áp tăng thêm:",
+    "correct": "Cúc hoa, mạn kinh tử, câu đằng",
+    "options": [
+      "Cát cánh",
+      "Phụ tử chế, can khương, bạch thược",
+      "Bán hạ chế, sinh khương",
+      "Cúc hoa, mạn kinh tử, câu đằng"
+    ]
+  },
+  {
+    "rowIndex": 150,
+    "question": "17. Viêm cầu thận cấp thể thấp nhiệt dùng đạo xích tán gg, phù nặng thêm:",
+    "correct": "Đình lịch tử, hắc sửu",
+    "options": [
+      "Bạch giới tử",
+      "Tử uyến, khoản đông hoa",
+      "Đình lịch tử, hắc sửu",
+      "Chỉ xác"
+    ]
+  },
+  {
+    "rowIndex": 151,
+    "question": "18. Thủy thũng (VCTM) thể tỳ dương hư dùng thực tỳ ẩm gg, thủy thấp nặng thêm:",
+    "correct": "Quế chi, trư linh, trạch tả",
+    "options": [
+      "Thạch cao",
+      "Quế chi, trư linh, trạch tả",
+      "Tiểu kế, chi tử sao đen",
+      "Đình lịch tử"
+    ]
+  },
+  {
+    "rowIndex": 152,
+    "question": "19. Thủy thũng (VCTM) thể tỳ dương hư dùng thực tỳ ẩm gg, mệt mỏi nhiều thêm:",
+    "correct": "Đẳng sâm, hoàng kỳ",
+    "options": [
+      "Cúc hoa, mạn kinh tử, câu đằng",
+      "Đại phúc bì",
+      "Đẳng sâm, hoàng kỳ",
+      "Đình lịch tử, hắc sửu"
+    ]
+  },
+  {
+    "rowIndex": 153,
+    "question": "20. Thủy thũng (VCTM) thể tỳ dương hư dùng thực tỳ ẩm gg, đại tiện phân lỏng thì bỏ:",
+    "correct": "Đại phúc bì",
+    "options": [
+      "Đại phúc bì",
+      "Hoàng liên, trúc như, chỉ thực",
+      "Can khương, ngô thù",
+      "Can khương, hoàng liên"
+    ]
+  },
+  {
+    "rowIndex": 154,
+    "question": "21. Thủy thũng (VCTM) có ỉa phân nát, nước tiểu trong, đau bụng, rêu lưỡi trắng trơn thêm:",
+    "correct": "Can khương, ngô thù",
+    "options": [
+      "Kim ngân hoa, liên kiều, bồ công anh",
+      "Bạch mao căn, chi tử sao đen",
+      "Hoàng kỳ, đẳng sâm, thăng ma",
+      "Can khương, ngô thù"
+    ]
+  },
+  {
+    "rowIndex": 155,
+    "question": "22. Thủy thũng (VCTM) có đại tiện táo, miệng hôi lở loét thêm:",
+    "correct": "Hoàng liên, trúc như, chỉ thực",
+    "options": [
+      "Đan bì, chi tử",
+      "Hoàng liên, trúc như, chỉ thực",
+      "Trúc như, bán hạ chế",
+      "Tô ngạnh, hậu phác, bán hạ chế"
+    ]
+  },
+  {
+    "rowIndex": 156,
+    "question": "23. VCTM nôn mửa nhiều thêm:",
+    "correct": "Can khương, hoàng liên",
+    "options": [
+      "Bối mẫu, trúc lịch",
+      "Gia thuyền thoái, ngô công, địa long",
+      "Can khương, hoàng liên",
+      "Thương truật, hậu phác, chỉ xác, trần bì"
+    ]
+  },
+  {
+    "rowIndex": 157,
+    "question": "24. Viêm bàng quang cấp dùng đạo xích tán gg, tiểu tiện ra máu thêm:",
+    "correct": "Bạch mao căn, chi tử sao đen",
+    "options": [
+      "Bạch mao căn, chi tử sao đen",
+      "Tỳ giải, khương hoàng",
+      "Thiên hoa phấn, sa sâm",
+      "Đại hoàng"
+    ]
+  },
+  {
+    "rowIndex": 158,
+    "question": "25. Đái ra máu thể cấp dùng tiểu kế ẩm tử, thanh nhiệt giải độc thêm:",
+    "correct": "Kim ngân hoa, liên kiều, bồ công anh",
+    "options": [
+      "Bạch chỉ, kỷ tử, cúc hoa",
+      "Uy linh tiêm, hy thiêm",
+      "Kim ngân hoa, liên kiều, bồ công anh",
+      "Đan bì, xích thược, sinh địa"
+    ]
+  },
+  {
+    "rowIndex": 159,
+    "question": "26. Bí tiểu kèm người mệt mỏi, ăn uống kém thở gấp, bỏ thục địa thêm:",
+    "correct": "Hoàng kỳ, đẳng sâm, thăng ma",
+    "options": [
+      "Thạch cao",
+      "Tang phiêu tiêu, ngũ vị tử",
+      "Hoàng kỳ, đẳng sâm, thăng ma",
+      "Bạch cập, a giao"
+    ]
+  },
+  {
+    "rowIndex": 160,
+    "question": "27. Tâm căn suy nhược thể can tâm khí uất kết, mắt đỏ miệng đắng thêm:",
+    "correct": "Đan bì, chi tử",
+    "options": [
+      "Ba kích, ích trí nhân, đỗ trọng",
+      "Tô ngạnh, hậu phác, bán hạ chế",
+      "Đan bì, chi tử",
+      "Trúc như, bán hạ chế"
+    ]
+  },
+  {
+    "rowIndex": 161,
+    "question": "28. Tâm căn suy nhược thể can tâm khí uất kết, hồi hộp ngủ mê, táo bón, rêu lưỡi vàng, mạch huyền hoạt thêm:",
+    "correct": "Trúc như, bán hạ chế",
+    "options": [
+      "Cỏ nhọ nồi sao đen, trắc bách diệp",
+      "Trúc như, bán hạ chế",
+      "Tô ngạnh, hậu phác, bán hạ chế",
+      "Đan bì, chi tử"
+    ]
+  },
+  {
+    "rowIndex": 162,
+    "question": "29. Tâm căn suy nhược thể can tâm khí uất kết, khó thở, tức ngực, cảm giác khó nuốt thêm:",
+    "correct": "Tô ngạnh, hậu phác, bán hạ chế",
+    "options": [
+      "Trúc như, bán hạ chế",
+      "Tô ngạnh, hậu phác, bán hạ chế",
+      "Đan bì, chi tử",
+      "Phụ tử chế, can khương, bạch thược"
+    ]
+  },
+  {
+    "rowIndex": 163,
+    "question": "30. Đầu thống thể phong thấp dùng khương hoạt thắng thấp thang, rêu lưới nhớt dày, ng nặng nề thêm:",
+    "correct": "Thương truật, hậu phác, chỉ xác, trần bì",
+    "options": [
+      "Bạch giới tử",
+      "Chỉ xác",
+      "Thương truật, hậu phác, chỉ xác, trần bì",
+      "Tử uyến, khoản đông hoa"
+    ]
+  },
+  {
+    "rowIndex": 164,
+    "question": "31. Đau đầu nhiều, gia thêm:",
+    "correct": "Gia thuyền thoái, ngô công, địa long",
+    "options": [
+      "Gia thuyền thoái, ngô công, địa long",
+      "Đình lịch tử",
+      "Tiểu kế, chi tử sao đen",
+      "Thạch cao"
+    ]
+  },
+  {
+    "rowIndex": 165,
+    "question": "32. Trúng phong tạng phủ chứng bế,dùng linh dương giác câu đằng ẩm gg , thở khò khè, đờm ứ đọng thêm:",
+    "correct": "Bối mẫu, trúc lịch",
+    "options": [
+      "Thiên hoa phấn, sa sâm",
+      "Đại hoàng",
+      "Quế chi, trư linh, trạch tả",
+      "Bối mẫu, trúc lịch"
+    ]
+  },
+  {
+    "rowIndex": 166,
+    "question": "33. Trúng phong tạng phủ chứng bế,dùng linh dương giác câu đằng ẩm gg, táo bón thêm:",
+    "correct": "Đại hoàng",
+    "options": [
+      "Can khương, ngô thù",
+      "Thiên hoa phấn, sa sâm",
+      "Bối mẫu, trúc lịch",
+      "Đại hoàng"
+    ]
+  },
+  {
+    "rowIndex": 167,
+    "question": "34. Trúng phong tạng phủ chứng bế,dùng linh dương giác câu đằng ẩm gg, miệng họng khô thêm:",
+    "correct": "Thiên hoa phấn, sa sâm",
+    "options": [
+      "Đại hoàng",
+      "Bối mẫu, trúc lịch",
+      "Thiên hoa phấn, sa sâm",
+      "Hoàng liên, trúc như, chỉ thực"
+    ]
+  },
+  {
+    "rowIndex": 168,
+    "question": "35. Các khớp sưng đau nhiều thêm:",
+    "correct": "Tỳ giải, khương hoàng",
+    "options": [
+      "Kim ngân hoa, liên kiều, bồ công anh",
+      "Tỳ giải, khương hoàng",
+      "Đan bì, chi tử",
+      "Hoàng kỳ, đẳng sâm, thăng ma"
+    ]
+  },
+  {
+    "rowIndex": 169,
+    "question": "36. Viêm khớp dạng thấp (lịch tiết) , có hồng ban nút hoặc khớp sưng đỏ nhiều thêm:",
+    "correct": "Đan bì, xích thược, sinh địa",
+    "options": [
+      "Trúc như, bán hạ chế",
+      "Tô ngạnh, hậu phác, bán hạ chế",
+      "Thương truật, hậu phác, chỉ xác, trần bì",
+      "Đan bì, xích thược, sinh địa"
+    ]
+  },
+  {
+    "rowIndex": 170,
+    "question": "37. Đau vai gáy do can thận âm hư, phong hàn thấp tà dùng quyên tý thang gg, đau đầu thêm:",
+    "correct": "Bạch chỉ, kỷ tử, cúc hoa",
+    "options": [
+      "Bạch chỉ, kỷ tử, cúc hoa",
+      "Uy linh tiêm, hy thiêm",
+      "Gia thuyền thoái, ngô công, địa long",
+      "Bối mẫu, trúc lịch"
+    ]
+  },
+  {
+    "rowIndex": 171,
+    "question": "38. Đau vai gáy do can thận âm hư, phong hàn thấp tà dùng quyên tý thang gg, tê bì tay thêm:",
+    "correct": "Uy linh tiêm, hy thiêm",
+    "options": [
+      "Thiên hoa phấn, sa sâm",
+      "Bạch chỉ, kỷ tử, cúc hoa",
+      "Tỳ giải, khương hoàng",
+      "Uy linh tiêm, hy thiêm"
+    ]
+  },
+  {
+    "rowIndex": 172,
+    "question": "39. Suy nhược cơ thể, phế âm hư dùng bách hợp cố kim thang gg, ho ra máu thêm:",
+    "correct": "Bạch cập, a giao",
+    "options": [
+      "Thạch cao",
+      "Tang phiêu tiêu, ngũ vị tử",
+      "Cúc hoa, mạn kinh tử",
+      "Bạch cập, a giao"
+    ]
+  },
+  {
+    "rowIndex": 173,
+    "question": "40. Tiêu khát thể hạ tiêu dùng lục vị địa hoàng gg, khát nước nhiều thêm:",
+    "correct": "Thạch cao",
+    "options": [
+      "Đào nhân, hồng hoa, đan sâm",
+      "Thạch cao",
+      "Ba kích, ích trí nhân, đỗ trọng",
+      "Toan táo nhân, bá tử nhân"
+    ]
+  },
+  {
+    "rowIndex": 174,
+    "question": "41. Tiêu khát thể hạ tiêu dùng lục vị địa hoàng gg, tiểu nhiều thêm:",
+    "correct": "Tang phiêu tiêu, ngũ vị tử",
+    "options": [
+      "Tang phiêu tiêu, ngũ vị tử",
+      "Cỏ nhọ nồi sao đen, trắc bách diệp",
+      "Thạch cao",
+      "Bán hạ, trần bì"
     ]
   }
 ]

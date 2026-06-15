@@ -119,7 +119,7 @@ class QuizApp {
 
     // Setup Shuffle button
     const shuffleBtn = clone.getElementById('shuffle-btn');
-    shuffleBtn.textContent = this.state.isShuffled ? 'Về thứ tự gốc 📋' : 'Trộn câu hỏi 🔀';
+    shuffleBtn.textContent = this.state.isShuffled ? 'Về thứ tự gốc' : 'Trộn câu hỏi';
     shuffleBtn.addEventListener('click', () => this.handleShuffleQuestions());
 
     // Setup Next button (initially hidden)
@@ -184,7 +184,10 @@ class QuizApp {
 
   handleReset(buttons) {
     // Triggered by any click after wrong answer
-    if (this.state.state !== 'wrong') return;
+    if (this.state.state !== 'wrong') {
+
+      return;
+    }
 
     // Clear borders and re-enable pointer events
     buttons.forEach(btn => {
@@ -228,9 +231,7 @@ class QuizApp {
       // Shuffle questions
       this.state.shuffleQuestions();
     }
-    
-    // Show Bảo message
-    setBaoState('question_shuffled');
+
     
     // Re-render question after showing message, then go back to idle
     setTimeout(() => {
