@@ -4,13 +4,66 @@
   box-sizing: border-box;
 }
 
+/* 1. Xóa background gradient, chuyển thành màu trắng */
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #ffffff; /* Đã chuyển sang trắng */
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* 2. Style cho cụm nút điều hướng bên dưới đáp án */
+.navigation-buttons {
+  display: flex;
+  margin-top: 30px;
+  gap: 15px;
+  width: 100%;
+}
+
+/* Ép tất cả các nút trong cụm này (Quay lại, Tiếp tục) chia đều chiều rộng */
+.navigation-buttons .btn {
+  flex: 1; /* Cốt lõi để 2 nút luôn bằng nhau 50-50 */
+  margin: 0; /* Xóa margin thừa nếu có */
+  max-width: none; /* Vô hiệu hóa max-width cũ của btn-next */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-secondary {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background: #e0e0e0;
+  transform: translateY(-2px);
+}
+
+.btn-secondary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* 3. Style trạng thái khóa (disabled) cho nút Tiếp tục */
+.btn-primary:disabled {
+  background: #a0aec0;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+  opacity: 0.6;
+}
+
+/* 3. Style trạng thái khóa (disabled) cho nút Tiếp tục */
+.btn-primary:disabled {
+  background: #a0aec0;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+  opacity: 0.6;
 }
 
 .screen {
@@ -79,17 +132,35 @@ body {
 }
 
 /* Question Screen */
+/* Container chứa toàn bộ thanh tiến độ và công cụ */
 .progress-bar {
+  display: flex;
+  justify-content: space-between; /* Đẩy tiến độ sang trái, công cụ sang phải */
+  align-items: center;
   margin-bottom: 30px;
-  text-align: left;
+  flex-wrap: wrap; /* Cho phép rớt dòng nếu màn hình điện thoại quá nhỏ */
+  gap: 15px;
+}
+
+/* Nhóm các nút công cụ (Nhảy câu + Trộn câu) */
+.progress-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Khoảng cách giữa ô tìm kiếm và nút trộn */
+  flex-wrap: wrap;
+}
+
+/* Đảm bảo nút Trộn câu không có margin thừa làm lệch dòng */
+.btn-shuffle {
+  margin-left: 0; 
 }
 
 #progress-text {
   display: inline-block;
   background: #667eea;
   color: white;
-  padding: 8px 16px;
-  border-radius: 20px;
+  padding: 5px 10px;
+  border-radius: 7px;
   font-size: 14px;
   font-weight: 600;
 }
@@ -99,7 +170,7 @@ body {
 }
 
 .question-text {
-  font-size: 22px;
+  font-size: 15px;
   color: #333;
   margin-bottom: 40px;
   line-height: 1.5;
@@ -115,7 +186,7 @@ body {
 
 .answer-btn {
   padding: 20px;
-  font-size: 16px;
+  font-size: 13px;
   border: 2px solid #ddd;
   border-radius: 8px;
   background: white;
@@ -131,7 +202,7 @@ body {
 }
 
 .answer-btn:hover:not(:disabled) {
-  border-color: #667eea;
+  border-color: #bac7ff;
   background: #f5f7ff;
   transform: translateY(-2px);
 }
@@ -236,7 +307,7 @@ body {
   color: #333;
   padding: 10px 16px;
   font-size: 14px;
-  border: 1px solid #ffc107;
+  border: 1px solid #fae7ae;
   margin-left: 8px;
 }
 
@@ -245,100 +316,46 @@ body {
   transform: translateY(-2px);
 }
 
-/* Bảo Pet Character */
-.bao-container {
-  position: fixed;
-  right: 40px;
-  top: 50%;
-  transform: translateY(-50%);
+
+/* =========================================
+   JUMP QUESTION (NHẢY CÂU HỎI)
+========================================= */
+
+
+/* Ô nhập số và nút Đi */
+.jump-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  z-index: 100;
+  gap: 5px;
+  margin-left: 0; /* Xóa margin-left cũ nếu có */
 }
 
-.bao-body {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80px;
-  height: 80px;
-  background: #fff3cd;
-  border-radius: 50%;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  margin-bottom: 10px;
-}
 
-.bao-emoji {
-  font-size: 48px;
-  display: block;
-  line-height: 1;
-}
-
-.bao-name {
+.jump-input {
+  padding: 8px 12px;
+  width: 120px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
   font-size: 14px;
-  font-weight: 700;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.jump-input:focus {
+  border-color: #667eea;
+}
+
+.btn-jump {
+  background: #f0f0f0;
   color: #333;
-  text-align: center;
-}
-
-/* Thinking Bubble */
-.bao-thinking {
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  margin-bottom: 20px;
-  pointer-events: none;
-}
-
-.bao-thinking.show {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.bao-bubble {
-  background: white;
-  border: 2px solid #667eea;
-  border-radius: 12px;
-  padding: 12px 18px;
-  min-width: 180px;
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
-  position: relative;
-  text-align: center;
-}
-
-.bao-bubble p {
-  margin: 0;
+  padding: 8px 16px;
   font-size: 14px;
-  color: #333;
-  line-height: 1.4;
-  font-weight: 500;
+  border: 1px solid #ddd;
 }
 
-/* Tail pointing down to Bảo */
-.bao-tail {
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid white;
-  filter: drop-shadow(-1px 1px 1px rgba(102, 126, 234, 0.3));
-}
-
-.bao-tail::after {
-  content: '';
-  position: absolute;
-  bottom: -12px;
-  left: -12px;
-  width: 0;
-  height: 0;
-  border-left: 12px solid transparent;
-  border-right: 12px solid transparent;
-  border-top: 12px solid #667eea;
+.btn-jump:hover {
+  background: #e0e0e0;
+  transform: translateY(-2px);
 }
 
 /* Responsive */
@@ -350,11 +367,6 @@ body {
   .title {
     font-size: 24px;
     margin-bottom: 20px;
-  }
-
-  .question-text {
-    font-size: 18px;
-    margin-bottom: 30px;
   }
 
   .answer-btn {

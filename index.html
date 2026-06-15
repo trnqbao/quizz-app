@@ -13,7 +13,7 @@
   <template id="start-screen">
     <div class="screen start-screen">
       <div class="container">
-        <h1 class="title">Quiz App</h1>
+        <h1 class="title">Khánh Huyền cố lên ✨🤩</h1>
         <div class="start-content">
           <p class="question-count">Tổng số câu hỏi: <span id="total-questions">0</span></p>
           <button id="start-btn" class="btn btn-primary">Bắt đầu</button>
@@ -25,16 +25,29 @@
   <!-- Screen 2: Question Screen -->
   <template id="question-screen">
     <div class="screen question-screen">
-      <div class="container">
+      <div class="container main-content">
+        
         <div class="progress-bar">
           <span id="progress-text">1 / 10</span>
-          <button id="shuffle-btn" class="btn btn-shuffle">Trộn câu hỏi</button>
-          <button id="back-btn" class="btn btn-back">Quay lại</button>
+          
+          <div class="progress-actions">
+            <div class="jump-container">
+              <input type="number" id="jump-input" class="jump-input" placeholder="Đến câu..." min="1">
+              <button id="jump-btn" class="btn btn-jump">Đi</button>
+            </div>
+            <button id="shuffle-btn" class="btn btn-shuffle">Trộn câu</button>
+          </div>
         </div>
+        
         <div class="question-card">
           <h2 id="question-text" class="question-text"></h2>
           <div id="answers-container" class="answers-grid"></div>
-          <button id="next-btn" class="btn btn-primary btn-next" style="display: none;">Tiếp tục</button>
+          
+          <div class="navigation-buttons">
+            <button id="back-btn" class="btn btn-secondary">Quay lại</button>
+            <button id="next-btn" class="btn btn-primary btn-next" disabled>Tiếp tục</button>
+          </div>
+          
         </div>
       </div>
     </div>

@@ -25,11 +25,45 @@ class QuizState {
     this.originalQuestions = JSON.parse(JSON.stringify(questions)); // deep copy for backup
   }
 
+  // LƯU TIẾN ĐỘ VÀO LOCALSTORAGE
+  saveProgress() {
+    const progressData = {
+      currentIndex: this.currentIndex,
+      wrongCount: this.wrongCount,
+      isShuffled: this.isShuffled,
+      questions: this.questions,
+      originalQuestions: this.originalQuestions
+    };
+    localStorage.setItem('khuyen_quiz_progress', JSON.stringify(progressData));
+  }
+
+  // TẢI TIẾN ĐỘ TỪ LOCALSTORAGE
+  loadProgress() {
+    const savedData = localStorage.getItem('khuyen_quiz_progress');
+    if (savedData) {
+      const data = JSON.parse(savedData);
+      this.currentIndex = data.currentIndex;
+      this.wrongCount = data.wrongCount;
+      this.isShuffled = data.isShuffled;
+      this.questions = data.questions;
+      this.originalQuestions = data.originalQuestions;
+      return true;
+    }
+    return false;
+  }
+
+  // XÓA TIẾN ĐỘ KHI HOÀN THÀNH
+  clearProgress() {
+    localStorage.removeItem('khuyen_quiz_progress');
+  }
+
   reset() {
     this.currentIndex = 0;
     this.wrongCount = 0;
     this.state = 'idle';
+    this.isShuffled = false;
     this.clearResetListener();
+    this.clearProgress();
   }
 
   getCurrentQuestion() {
@@ -42,6 +76,7 @@ class QuizState {
 
   recordWrongAnswer() {
     this.wrongCount++;
+    this.saveProgress(); // Lưu tiến độ ngay khi có câu sai
   }
 
   clearResetListener() {
@@ -55,12 +90,14 @@ class QuizState {
     this.questions = shuffle([...this.questions]);
     this.currentIndex = 0;
     this.isShuffled = true;
+    this.saveProgress(); // Lưu tiến độ sau khi trộn
   }
 
   restoreOriginalOrder() {
     this.questions = JSON.parse(JSON.stringify(this.originalQuestions));
     this.currentIndex = 0;
     this.isShuffled = false;
+    this.saveProgress(); // Lưu tiến độ sau khi phục hồi thứ tự
   }
 }
 
@@ -76,8 +113,15 @@ class QuizApp {
     try {
       const response = await fetch('./data/questions.json');
       const questions = await response.json();
+      
       this.state.setQuestions(questions);
-      this.renderStartScreen();
+
+      // Kiểm tra xem có phiên làm việc nào đang dang dở không
+      if (this.state.loadProgress()) {
+        this.renderQuestionScreen(); // Có thì nhảy thẳng vào câu đang làm
+      } else {
+        this.renderStartScreen();    // Không có thì hiện màn hình bắt đầu
+      }
     } catch (error) {
       console.error('Failed to load questions:', error);
       this.app.innerHTML = '<p>Failed to load quiz data</p>';
@@ -89,7 +133,11 @@ class QuizApp {
     const clone = template.content.cloneNode(true);
     
     clone.getElementById('total-questions').textContent = this.state.questions.length;
-    clone.getElementById('start-btn').addEventListener('click', () => this.renderQuestionScreen());
+    
+    clone.getElementById('start-btn').addEventListener('click', () => {
+      this.state.saveProgress(); // Bắt đầu làm là lưu luôn phiên làm việc
+      this.renderQuestionScreen();
+    });
     
     this.app.innerHTML = '';
     this.app.appendChild(clone);
@@ -108,7 +156,53 @@ class QuizApp {
     const total = this.state.questions.length;
     clone.getElementById('progress-text').textContent = `${progress} / ${total}`;
 
-    // Setup Back button
+    // ==========================================
+    // THÊM MỚI: Xử lý logic Nhảy câu (Jump)
+    // ==========================================
+    const jumpInput = clone.getElementById('jump-input');
+    const jumpBtn = clone.getElementById('jump-btn');
+    
+    // Đặt giới hạn cho ô input dựa trên tổng số câu
+    jumpInput.max = total;
+
+    const handleJump = () => {
+      const targetStr = jumpInput.value.trim();
+      if (!targetStr) return; // Không làm gì nếu để trống
+
+      const targetQuestion = parseInt(targetStr, 10);
+
+      // Validate: Đảm bảo số nhập vào hợp lệ (từ 1 đến tổng số câu)
+      if (isNaN(targetQuestion) || targetQuestion < 1 || targetQuestion > total) {
+        alert(`Vui lòng nhập số từ 1 đến ${total}`);
+        jumpInput.value = ''; // Xóa input sai
+        return;
+      }
+
+      // Chuyển order (1-based) thành index (0-based)
+      const targetIndex = targetQuestion - 1;
+
+      // Tránh re-render nếu nhập đúng câu đang đứng
+      if (this.state.currentIndex !== targetIndex) {
+        this.state.currentIndex = targetIndex;
+        this.state.clearResetListener();
+        this.state.state = 'idle';
+        this.state.saveProgress(); // Cập nhật lại localStorage với vị trí mới
+        this.renderQuestionScreen();
+      } else {
+        jumpInput.value = ''; // Nếu đang ở câu đó rồi thì chỉ xóa chữ đi
+      }
+    };
+
+    // Bắt sự kiện click nút "Đi"
+    jumpBtn.addEventListener('click', handleJump);
+    
+    // Bắt sự kiện bấm phím Enter trong ô input cho tiện
+    jumpInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') handleJump();
+    });
+    // ==========================================
+
+    // Setup Back button (đã dời xuống dưới)
     const backBtn = clone.getElementById('back-btn');
     if (this.state.currentIndex === 0) {
       backBtn.disabled = true;
@@ -117,15 +211,15 @@ class QuizApp {
       backBtn.addEventListener('click', () => this.handleBack());
     }
 
+    // Setup Next button (Khóa mặc định, không dùng display: none nữa)
+    const nextBtn = clone.getElementById('next-btn');
+    nextBtn.disabled = true; 
+    nextBtn.addEventListener('click', () => this.handleNext());
+
     // Setup Shuffle button
     const shuffleBtn = clone.getElementById('shuffle-btn');
     shuffleBtn.textContent = this.state.isShuffled ? 'Về thứ tự gốc' : 'Trộn câu hỏi';
     shuffleBtn.addEventListener('click', () => this.handleShuffleQuestions());
-
-    // Setup Next button (initially hidden)
-    const nextBtn = clone.getElementById('next-btn');
-    nextBtn.addEventListener('click', () => this.handleNext());
-    nextBtn.style.display = 'none';
 
     // Update question
     clone.getElementById('question-text').textContent = question.question;
@@ -159,7 +253,7 @@ class QuizApp {
     const buttons = document.querySelectorAll('.answer-btn');
 
     if (selectedOption === question.correct) {
-      // CORRECT ANSWER - add green border and show Next button
+      // CORRECT ANSWER
       this.state.state = 'correct';
       buttonElement.classList.add('correct');
       buttons.forEach(btn => btn.style.pointerEvents = 'none');
@@ -167,35 +261,30 @@ class QuizApp {
       // Show Next button
       const nextBtn = document.getElementById('next-btn');
       if (nextBtn) {
-        nextBtn.style.display = 'inline-block';
+        nextBtn.disabled = false;
       }
     } else {
-      // WRONG ANSWER - add red border to selected button only
+      // WRONG ANSWER
       this.state.state = 'wrong';
-      this.state.recordWrongAnswer();
+      this.state.recordWrongAnswer(); // Hàm này giờ đã kiêm luôn việc lưu localStorage
       buttonElement.classList.add('wrong');
       buttons.forEach(btn => btn.style.pointerEvents = 'none');
 
-      // Setup one-time click listener to clear borders (ANY click anywhere)
       this.state.resetClickListener = () => this.handleReset(buttons);
       document.addEventListener('click', this.state.resetClickListener, { once: true });
     }
   }
 
   handleReset(buttons) {
-    // Triggered by any click after wrong answer
     if (this.state.state !== 'wrong') {
-
       return;
     }
 
-    // Clear borders and re-enable pointer events
     buttons.forEach(btn => {
       btn.classList.remove('wrong');
       btn.style.pointerEvents = 'auto';
     });
 
-    // Back to idle
     this.state.state = 'idle';
   }
 
@@ -206,40 +295,39 @@ class QuizApp {
       this.renderResultScreen();
     } else {
       this.state.currentIndex++;
+      this.state.saveProgress(); // Lưu tiến độ khi sang câu mới
       this.renderQuestionScreen();
     }
   }
 
   handleBack() {
     if (this.state.currentIndex > 0) {
-      // Clear any pending state
       this.state.clearResetListener();
       this.state.state = 'idle';
       this.state.currentIndex--;
+      this.state.saveProgress(); // Lưu tiến độ khi quay lại
       this.renderQuestionScreen();
     }
   }
 
   handleShuffleQuestions() {
-    // Clear any pending state from wrong/correct
     this.state.clearResetListener();
     
     if (this.state.isShuffled) {
-      // Restore original order
       this.state.restoreOriginalOrder();
     } else {
-      // Shuffle questions
       this.state.shuffleQuestions();
     }
 
-    
-    // Re-render question after showing message, then go back to idle
     setTimeout(() => {
       this.renderQuestionScreen();
-    }, 1800);
+    }, 0);
   }
 
   renderResultScreen() {
+    // KHI TỚI MÀN HÌNH KẾT QUẢ TỨC LÀ ĐÃ XONG, XÓA DỮ LIỆU LƯU TẠM
+    this.state.clearProgress();
+
     const template = document.getElementById('result-screen');
     const clone = template.content.cloneNode(true);
 
@@ -247,7 +335,7 @@ class QuizApp {
     clone.getElementById('wrong-count-result').textContent = this.state.wrongCount;
     clone.getElementById('restart-btn').addEventListener('click', () => {
       this.state.reset();
-      this.renderQuestionScreen();
+      this.init(); // Reset xong thì gọi lại init để load lại data chuẩn
     });
 
     this.app.innerHTML = '';
